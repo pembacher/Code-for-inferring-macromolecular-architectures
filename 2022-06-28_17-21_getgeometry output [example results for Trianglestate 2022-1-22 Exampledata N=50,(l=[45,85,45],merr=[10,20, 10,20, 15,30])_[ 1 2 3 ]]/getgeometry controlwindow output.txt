@@ -1,0 +1,1757 @@
+ Info - readpolygonstates: Start reading:
+  Trianglestate 2022-1-22 Exampledata N=50,(l=[45,85,45],merr=[10,20, 10,20, 15,30])_[ 1 2 3 ].txt
+  within [1..Inf]
+  comment:	
+  nostates:			1
+  nomarkers:		3
+  dim:				3
+  nodata:			50
+ Info - rungetgeometry_v2: Start 5 independent chain(s) now.
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 8).
+ (1) Info - control (0): Set runrange myself ([1..10000]).
+Warning: Directory already exists.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getgeometry_v2/initialiseparameters', 'C:\Users\eplam\Documents\Warwick\Published triangle code\getgeometry_v2.m', 220)" style="font-weight:bold">getgeometry_v2/initialiseparameters</a> (<a href="matlab: opentoline('C:\Users\eplam\Documents\Warwick\Published triangle code\getgeometry_v2.m',220,0)">line 220</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', 'C:\Program Files\MATLAB\R2022a\toolbox\matlab\lang\parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022a\toolbox\matlab\lang\parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', 'C:\Program Files\MATLAB\R2022a\toolbox\parallel\remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022a\toolbox\parallel\remoteParallelFunction.m',67,0)">line 67</a>)
+ (3) Info - control (0): Set runrange myself ([1..10000]).
+Warning: Directory already exists.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getgeometry_v2/initialiseparameters', 'C:\Users\eplam\Documents\Warwick\Published triangle code\getgeometry_v2.m', 220)" style="font-weight:bold">getgeometry_v2/initialiseparameters</a> (<a href="matlab: opentoline('C:\Users\eplam\Documents\Warwick\Published triangle code\getgeometry_v2.m',220,0)">line 220</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', 'C:\Program Files\MATLAB\R2022a\toolbox\matlab\lang\parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022a\toolbox\matlab\lang\parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', 'C:\Program Files\MATLAB\R2022a\toolbox\parallel\remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022a\toolbox\parallel\remoteParallelFunction.m',67,0)">line 67</a>)
+Warning: Directory already exists.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('getgeometry_v2/initialiseparameters', 'C:\Users\eplam\Documents\Warwick\Published triangle code\getgeometry_v2.m', 220)" style="font-weight:bold">getgeometry_v2/initialiseparameters</a> (<a href="matlab: opentoline('C:\Users\eplam\Documents\Warwick\Published triangle code\getgeometry_v2.m',220,0)">line 220</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', 'C:\Program Files\MATLAB\R2022a\toolbox\matlab\lang\parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022a\toolbox\matlab\lang\parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', 'C:\Program Files\MATLAB\R2022a\toolbox\parallel\remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022a\toolbox\parallel\remoteParallelFunction.m',67,0)">line 67</a>)
+ (1) Start getgeometry_v2:
+ (1) timestamp:				2022_06_28-17_21
+ (1) statsrange:			[4001..10000]
+ (1) subsamplefreq:			50
+ (1) number of states:		1
+ (1) lengthpriortype:		1
+ (1) ...densitytype:		1
+ (1) ...state 1:			[ 0.000e+00+-Inf 0.000e+00+-Inf 0.000e+00+-Inf ]
+ (1) errorupdatetype:		Gibbs
+ (1) errorupdatepior:
+ (1) ...state 1:			Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) 
+ (1) possible states for each measurement:
+     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+ (1) dataset for each measurement:
+     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+ (1) Info - control (0): Initial state:
+ (1)...current output at MCit=0 (0.072 sec)(logtarget_curr = -4.97812667e+06):
+ (1) ...state 1:	(50 measurements, [ 100.00% ])
+ (1)  l12 = 4.046e+01	l13 = 4.403e+02	
+ (1)  l23 = 4.804e+02	
+ (1)  merr1 = [ 1.07e+02 1.31e+02 ]	merr2 = [ 5.24e+01 1.79e+02 ]	merr3 = [ 6.37e+01 1.32e+02 ]	
+ (1) rejection rates: [    NaN    NaN    NaN    NaN ]
+ (1) Info - optimisestepsizes (96): Increased step1 to 1.0e+02 (rej. rate = 2.729e-01)
+ (3) Start getgeometry_v2:
+ (3) timestamp:				2022_06_28-17_21
+ (3) statsrange:			[4001..10000]
+ (3) subsamplefreq:			50
+ (3) number of states:		1
+ (3) lengthpriortype:		1
+ (3) ...densitytype:		1
+ (3) ...state 1:			[ 0.000e+00+-Inf 0.000e+00+-Inf 0.000e+00+-Inf ]
+ (3) errorupdatetype:		Gibbs
+ (3) errorupdatepior:
+ (3) ...state 1:			Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) 
+ (3) possible states for each measurement:
+     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+ (3) dataset for each measurement:
+     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+ (3) Info - control (0): Initial state:
+ (3)...current output at MCit=0 (0.075 sec)(logtarget_curr = -1.93157911e+07):
+ (3) ...state 1:	(50 measurements, [ 100.00% ])
+ (3)  l12 = 2.919e+02	l13 = 2.131e+02	
+ (3)  l23 = 1.084e+02	
+ (3)  merr1 = [ 5.87e+01 6.84e+01 ]	merr2 = [ 1.21e+02 8.24e+01 ]	merr3 = [ 2.04e+01 1.29e+02 ]	
+ (3) rejection rates: [    NaN    NaN    NaN    NaN ]
+ (3) Info - optimisestepsizes (96): Increased step1 to 2.7e+02 (rej. rate = 1.675e-01)
+ (4) Info - control (0): Set runrange myself ([1..10000]).
+ (4) Start getgeometry_v2:
+ (4) timestamp:				2022_06_28-17_21
+ (4) statsrange:			[4001..10000]
+ (4) subsamplefreq:			50
+ (4) number of states:		1
+ (4) lengthpriortype:		1
+ (4) ...densitytype:		1
+ (4) ...state 1:			[ 0.000e+00+-Inf 0.000e+00+-Inf 0.000e+00+-Inf ]
+ (4) errorupdatetype:		Gibbs
+ (4) errorupdatepior:
+ (4) ...state 1:			Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) 
+ (4) possible states for each measurement:
+     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+ (4) dataset for each measurement:
+     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+ (4) Info - control (0): Initial state:
+ (4)...current output at MCit=0 (0.084 sec)(logtarget_curr = -5.99282496e+06):
+ (4) ...state 1:	(50 measurements, [ 100.00% ])
+ (4)  l12 = 9.724e+01	l13 = 3.588e+02	
+ (4)  l23 = 4.560e+02	
+ (4)  merr1 = [ 1.88e+02 7.14e+01 ]	merr2 = [ 3.79e+01 1.05e+02 ]	merr3 = [ 1.78e+02 5.39e+01 ]	
+ (4) rejection rates: [    NaN    NaN    NaN    NaN ]
+ (4) Info - optimisestepsizes (96): Increased step1 to 4.6e+01 (rej. rate = 3.596e-01)
+ (5) Info - control (0): Set runrange myself ([1..10000]).
+ (5) Start getgeometry_v2:
+ (5) timestamp:				2022_06_28-17_21
+ (5) statsrange:			[4001..10000]
+ (5) subsamplefreq:			50
+ (5) number of states:		1
+ (5) lengthpriortype:		1
+ (5) ...densitytype:		1
+ (5) ...state 1:			[ 0.000e+00+-Inf 0.000e+00+-Inf 0.000e+00+-Inf ]
+ (5) errorupdatetype:		Gibbs
+ (5) errorupdatepior:
+ (5) ...state 1:			Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) 
+ (5) possible states for each measurement:
+     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+ (5) dataset for each measurement:
+     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+ (5) Info - control (0): Initial state:
+ (5)...current output at MCit=0 (0.081 sec)(logtarget_curr = -2.53621956e+06):
+ (5) ...state 1:	(50 measurements, [ 100.00% ])
+ (5)  l12 = 1.415e+02	l13 = 1.702e+02	
+ (5)  l23 = 1.144e+02	
+ (5)  merr1 = [ 1.33e+02 1.67e+02 ]	merr2 = [ 1.60e+02 1.66e+02 ]	merr3 = [ 7.66e+01 1.18e+02 ]	
+ (5) rejection rates: [    NaN    NaN    NaN    NaN ]
+ (5) Info - optimisestepsizes (96): Increased step1 to 8.7e+01 (rej. rate = 2.921e-01)
+ (2) Info - control (0): Set runrange myself ([1..10000]).
+ (2) Start getgeometry_v2:
+ (2) timestamp:				2022_06_28-17_21
+ (2) statsrange:			[4001..10000]
+ (2) subsamplefreq:			50
+ (2) number of states:		1
+ (2) lengthpriortype:		1
+ (2) ...densitytype:		1
+ (2) ...state 1:			[ 0.000e+00+-Inf 0.000e+00+-Inf 0.000e+00+-Inf ]
+ (2) errorupdatetype:		Gibbs
+ (2) errorupdatepior:
+ (2) ...state 1:			Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) Gamma(-5.000e-01,[0.000e+00,0.000e+00,0.000e+00]) 
+ (2) possible states for each measurement:
+     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+ (2) dataset for each measurement:
+     1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+ (2) Info - control (0): Initial state:
+ (2)...current output at MCit=0 (0.078 sec)(logtarget_curr = -1.99712450e+06):
+ (2) ...state 1:	(50 measurements, [ 100.00% ])
+ (2)  l12 = 1.915e+02	l13 = 1.558e+02	
+ (2)  l23 = 4.193e+01	
+ (2)  merr1 = [ 1.30e+02 1.42e+02 ]	merr2 = [ 8.86e+01 1.60e+02 ]	merr3 = [ 1.33e+02 1.96e+02 ]	
+ (2) rejection rates: [    NaN    NaN    NaN    NaN ]
+ (2) Info - optimisestepsizes (96): Increased step1 to 9.7e+01 (rej. rate = 2.804e-01)
+ (1) Info - optimisestepsizes (96): Increased step2 to 5.4e+01 (rej. rate = 3.429e-01)
+ (1) Info - optimisestepsizes (96): Increased step3 to 6.0e+02 (rej. rate = 8.208e-02)
+ (1) Info - optimisestepsizes (96): Increased step4 to 2.3e+00 (rej. rate = 6.843e-01)
+ (1) Info - optimisestepsizes (160): Decreased step1 to 3.7e+01 (rej. rate = 1.000e+00)
+ (4) Info - optimisestepsizes (96): Increased step2 to 4.4e+01 (rej. rate = 3.656e-01)
+ (4) Info - optimisestepsizes (96): Increased step3 to 5.6e+02 (rej. rate = 9.021e-02)
+ (4) Info - optimisestepsizes (96): Increased step4 to 1.7e+00 (rej. rate = 7.161e-01)
+ (4) Info - optimisestepsizes (160): Decreased step1 to 1.6e+01 (rej. rate = 9.997e-01)
+ (5) Info - optimisestepsizes (96): Increased step2 to 9.0e+01 (rej. rate = 2.881e-01)
+ (5) Info - optimisestepsizes (96): Increased step3 to 3.9e+02 (rej. rate = 1.294e-01)
+ (5) Info - optimisestepsizes (96): Decreased step4 to 7.2e-01 (rej. rate = 8.112e-01)
+ (5) Info - optimisestepsizes (160): Decreased step1 to 3.1e+01 (rej. rate = 1.000e+00)
+ (3) Info - optimisestepsizes (96): Increased step2 to 3.7e+01 (rej. rate = 3.838e-01)
+ (3) Info - optimisestepsizes (96): Increased step3 to 2.8e+02 (rej. rate = 1.665e-01)
+ (3) Info - optimisestepsizes (96): Decreased step4 to 3.9e-01 (rej. rate = 8.757e-01)
+ (3) Info - optimisestepsizes (160): Decreased step1 to 9.7e+01 (rej. rate = 1.000e+00)
+ (2) Info - optimisestepsizes (96): Increased step2 to 5.9e+01 (rej. rate = 3.346e-01)
+ (2) Info - optimisestepsizes (96): Increased step3 to 4.9e+02 (rej. rate = 1.040e-01)
+ (2) Info - optimisestepsizes (96): Decreased step4 to 5.1e-01 (rej. rate = 8.477e-01)
+ (2) Info - optimisestepsizes (160): Decreased step1 to 3.4e+01 (rej. rate = 1.000e+00)
+ (1) Info - optimisestepsizes (160): Decreased step2 to 1.9e+01 (rej. rate = 1.000e+00)
+ (1) Info - optimisestepsizes (160): Decreased step3 to 2.1e+02 (rej. rate = 9.988e-01)
+ (1) Info - optimisestepsizes (160): Decreased step4 to 8.3e-01 (rej. rate = 9.976e-01)
+ (1) Info - optimisestepsizes (224): Decreased step1 to 1.3e+01 (rej. rate = 9.991e-01)
+ (4) Info - optimisestepsizes (160): Decreased step2 to 1.6e+01 (rej. rate = 1.000e+00)
+ (4) Info - optimisestepsizes (160): Decreased step3 to 2.0e+02 (rej. rate = 9.997e-01)
+ (4) Info - optimisestepsizes (160): Decreased step4 to 6.9e-01 (rej. rate = 9.717e-01)
+ (4) Info - optimisestepsizes (224): Decreased step1 to 6.1e+00 (rej. rate = 9.906e-01)
+ (5) Info - optimisestepsizes (160): Decreased step2 to 3.2e+01 (rej. rate = 1.000e+00)
+ (5) Info - optimisestepsizes (160): Decreased step3 to 1.4e+02 (rej. rate = 1.000e+00)
+ (5) Info - optimisestepsizes (160): Decreased step4 to 9.5e-02 (rej. rate = 9.934e-01)
+ (5) Info - optimisestepsizes (224): Decreased step1 to 1.1e+01 (rej. rate = 9.994e-01)
+ (3) Info - optimisestepsizes (160): Decreased step2 to 1.3e+01 (rej. rate = 9.994e-01)
+ (3) Info - optimisestepsizes (160): Decreased step3 to 9.8e+01 (rej. rate = 1.000e+00)
+ (3) Info - optimisestepsizes (160): Decreased step4 to 6.7e-02 (rej. rate = 9.670e-01)
+ (3) Info - optimisestepsizes (224): Decreased step1 to 3.4e+01 (rej. rate = 1.000e+00)
+ (2) Info - optimisestepsizes (160): Decreased step2 to 2.1e+01 (rej. rate = 1.000e+00)
+ (2) Info - optimisestepsizes (160): Decreased step3 to 1.7e+02 (rej. rate = 1.000e+00)
+ (2) Info - optimisestepsizes (160): Decreased step4 to 7.6e-02 (rej. rate = 9.810e-01)
+ (2) Info - optimisestepsizes (224): Decreased step1 to 1.2e+01 (rej. rate = 9.978e-01)
+ (1) Info - optimisestepsizes (224): Decreased step2 to 6.8e+00 (rej. rate = 9.994e-01)
+ (1) Info - optimisestepsizes (224): Decreased step3 to 7.6e+01 (rej. rate = 1.000e+00)
+ (1) Info - optimisestepsizes (224): Decreased step4 to 3.5e-01 (rej. rate = 9.600e-01)
+ (1) Info - optimisestepsizes (288): Decreased step1 to 5.0e+00 (rej. rate = 9.822e-01)
+ (4) Info - optimisestepsizes (224): Decreased step2 to 5.9e+00 (rej. rate = 9.844e-01)
+ (4) Info - optimisestepsizes (224): Decreased step3 to 7.0e+01 (rej. rate = 9.997e-01)
+ (4) Info - optimisestepsizes (224): Decreased step4 to 6.4e-01 (rej. rate = 7.934e-01)
+ (4) Info - optimisestepsizes (288): Decreased step1 to 4.4e+00 (rej. rate = 8.469e-01)
+ (5) Info - optimisestepsizes (224): Decreased step2 to 1.1e+01 (rej. rate = 1.000e+00)
+ (5) Info - optimisestepsizes (224): Decreased step3 to 4.9e+01 (rej. rate = 9.997e-01)
+ (5) Info - optimisestepsizes (224): Decreased step4 to 2.8e-02 (rej. rate = 9.087e-01)
+ (5) Info - optimisestepsizes (288): Decreased step1 to 4.0e+00 (rej. rate = 9.906e-01)
+ (3) Info - optimisestepsizes (224): Decreased step2 to 4.9e+00 (rej. rate = 9.891e-01)
+ (3) Info - optimisestepsizes (224): Decreased step3 to 3.5e+01 (rej. rate = 9.981e-01)
+ (3) Info - optimisestepsizes (224): Increased step4 to 8.6e-02 (rej. rate = 7.200e-01)
+ (3) Info - optimisestepsizes (288): Decreased step1 to 1.2e+01 (rej. rate = 1.000e+00)
+ (2) Info - optimisestepsizes (224): Decreased step2 to 7.4e+00 (rej. rate = 9.991e-01)
+ (2) Info - optimisestepsizes (224): Decreased step3 to 6.2e+01 (rej. rate = 9.997e-01)
+ (2) Info - optimisestepsizes (224): Decreased step4 to 4.7e-02 (rej. rate = 8.263e-01)
+ (2) Info - optimisestepsizes (288): Decreased step1 to 5.1e+00 (rej. rate = 9.634e-01)
+ (1) Info - optimisestepsizes (288): Decreased step2 to 3.5e+00 (rej. rate = 9.175e-01)
+ (1) Info - optimisestepsizes (288): Decreased step3 to 2.7e+01 (rej. rate = 9.981e-01)
+ (1) Info - optimisestepsizes (288): Increased step4 to 4.6e-01 (rej. rate = 6.568e-01)
+ (1) Info - optimisestepsizes (352): Decreased step1 to 3.9e+00 (rej. rate = 8.300e-01)
+ (4) Info - optimisestepsizes (288): Decreased step2 to 3.1e+00 (rej. rate = 9.144e-01)
+ (4) Info - optimisestepsizes (288): Decreased step3 to 2.5e+01 (rej. rate = 9.997e-01)
+ (4) Info - optimisestepsizes (288): Increased step4 to 6.9e-01 (rej. rate = 7.413e-01)
+ (4) Info - optimisestepsizes (352): Increased step1 to 4.6e+00 (rej. rate = 7.500e-01)
+ (3) Info - optimisestepsizes (288): Decreased step2 to 3.1e+00 (rej. rate = 8.756e-01)
+ (3) Info - optimisestepsizes (288): Decreased step3 to 1.3e+01 (rej. rate = 9.878e-01)
+ (3) Info - optimisestepsizes (288): Increased step4 to 5.4e-01 (rej. rate = 3.781e-01)
+ (3) Info - optimisestepsizes (352): Decreased step1 to 4.9e+00 (rej. rate = 9.728e-01)
+ (5) Info - optimisestepsizes (288): Decreased step2 to 4.7e+00 (rej. rate = 9.653e-01)
+ (5) Info - optimisestepsizes (288): Decreased step3 to 1.7e+01 (rej. rate = 9.988e-01)
+ (5) Info - optimisestepsizes (288): Increased step4 to 9.0e-02 (rej. rate = 5.196e-01)
+ (5) Info - optimisestepsizes (352): Increased step1 to 4.4e+00 (rej. rate = 7.334e-01)
+ (2) Info - optimisestepsizes (288): Decreased step2 to 2.7e+00 (rej. rate = 9.944e-01)
+ (2) Info - optimisestepsizes (288): Decreased step3 to 2.2e+01 (rej. rate = 9.997e-01)
+ (2) Info - optimisestepsizes (288): Increased step4 to 6.5e-02 (rej. rate = 7.064e-01)
+ (2) Info - optimisestepsizes (352): Increased step1 to 6.1e+00 (rej. rate = 6.984e-01)
+ (1) Info - optimisestepsizes (352): Increased step2 to 4.0e+00 (rej. rate = 7.147e-01)
+ (1) Info - optimisestepsizes (352): Decreased step3 to 1.0e+01 (rej. rate = 9.822e-01)
+ (1) Info - optimisestepsizes (352): Increased step4 to 6.7e-01 (rej. rate = 6.156e-01)
+ (1) Info - optimisestepsizes (416): Decreased step1 to 2.4e+00 (rej. rate = 8.766e-01)
+ (4) Info - optimisestepsizes (352): Increased step2 to 3.4e+00 (rej. rate = 7.366e-01)
+ (4) Info - optimisestepsizes (352): Decreased step3 to 9.7e+00 (rej. rate = 9.794e-01)
+ (4) Info - optimisestepsizes (352): Increased step4 to 7.4e-01 (rej. rate = 7.470e-01)
+ (4) Info - optimisestepsizes (416): Increased step1 to 5.2e+00 (rej. rate = 7.259e-01)
+ (3) Info - optimisestepsizes (352): Increased step2 to 3.1e+00 (rej. rate = 7.709e-01)
+ (3) Info - optimisestepsizes (352): Decreased step3 to 6.9e+00 (rej. rate = 9.122e-01)
+ (3) Info - optimisestepsizes (352): Increased step4 to 7.1e-01 (rej. rate = 7.155e-01)
+ (3) Info - optimisestepsizes (416): Decreased step1 to 4.0e+00 (rej. rate = 8.194e-01)
+ (5) Info - optimisestepsizes (352): Decreased step2 to 2.2e+00 (rej. rate = 9.409e-01)
+ (5) Info - optimisestepsizes (352): Decreased step3 to 9.4e+00 (rej. rate = 9.069e-01)
+ (5) Info - optimisestepsizes (352): Increased step4 to 1.5e-01 (rej. rate = 6.714e-01)
+ (5) Info - optimisestepsizes (416): Decreased step1 to 4.1e+00 (rej. rate = 8.397e-01)
+ (2) Info - optimisestepsizes (352): Decreased step2 to 2.6e+00 (rej. rate = 7.841e-01)
+ (2) Info - optimisestepsizes (352): Decreased step3 to 8.8e+00 (rej. rate = 9.731e-01)
+ (2) Info - optimisestepsizes (352): Increased step4 to 6.1e-01 (rej. rate = 2.890e-01)
+ (2) Info - optimisestepsizes (416): Decreased step1 to 5.6e+00 (rej. rate = 8.544e-01)
+ (1) Info - optimisestepsizes (416): Decreased step2 to 4.0e+00 (rej. rate = 7.847e-01)
+ (1) Info - optimisestepsizes (416): Decreased step3 to 9.9e+00 (rej. rate = 7.859e-01)
+ (1) Info - optimisestepsizes (416): Increased step4 to 7.1e-01 (rej. rate = 7.490e-01)
+ (1) Info - optimisestepsizes (480): Increased step1 to 4.4e+00 (rej. rate = 5.125e-01)
+ (4) Info - optimisestepsizes (416): Increased step2 to 3.6e+00 (rej. rate = 7.450e-01)
+ (4) Info - optimisestepsizes (416): Decreased step3 to 9.4e+00 (rej. rate = 7.816e-01)
+ (4) Info - optimisestepsizes (416): Increased step4 to 7.7e-01 (rej. rate = 7.577e-01)
+ (4) Info - optimisestepsizes (480): Decreased step1 to 4.9e+00 (rej. rate = 8.266e-01)
+ (3) Info - optimisestepsizes (416): Decreased step2 to 3.1e+00 (rej. rate = 7.844e-01)
+ (3) Info - optimisestepsizes (416): Increased step3 to 8.4e+00 (rej. rate = 6.934e-01)
+ (3) Info - optimisestepsizes (416): Decreased step4 to 6.2e-01 (rej. rate = 8.315e-01)
+ (3) Info - optimisestepsizes (480): Increased step1 to 4.5e+00 (rej. rate = 7.178e-01)
+ (5) Info - optimisestepsizes (416): Increased step2 to 3.1e+00 (rej. rate = 6.134e-01)
+ (5) Info - optimisestepsizes (416): Increased step3 to 1.2e+01 (rej. rate = 6.747e-01)
+ (5) Info - optimisestepsizes (416): Increased step4 to 9.3e-01 (rej. rate = 3.741e-01)
+ (5) Info - optimisestepsizes (480): Decreased step1 to 4.1e+00 (rej. rate = 7.772e-01)
+ (2) Info - optimisestepsizes (416): Increased step2 to 3.3e+00 (rej. rate = 6.694e-01)
+ (2) Info - optimisestepsizes (416): Increased step3 to 9.1e+00 (rej. rate = 7.581e-01)
+ (2) Info - optimisestepsizes (416): Increased step4 to 8.4e-01 (rej. rate = 7.071e-01)
+ (2) Info - optimisestepsizes (480): Decreased step1 to 5.5e+00 (rej. rate = 7.900e-01)
+ (1) Info - optimisestepsizes (480): Decreased step2 to 3.8e+00 (rej. rate = 8.144e-01)
+ (1) Info - optimisestepsizes (480): Increased step3 to 1.0e+01 (rej. rate = 7.597e-01)
+ (1) Info - optimisestepsizes (480): Increased step4 to 7.2e-01 (rej. rate = 7.669e-01)
+ (1) Info - optimisestepsizes (544): Increased step1 to 5.2e+00 (rej. rate = 7.066e-01)
+ (4) Info - optimisestepsizes (480): Decreased step2 to 3.3e+00 (rej. rate = 8.675e-01)
+ (4) Info - optimisestepsizes (480): Decreased step3 to 9.3e+00 (rej. rate = 7.769e-01)
+ (4) Info - optimisestepsizes (480): Decreased step4 to 7.1e-01 (rej. rate = 8.449e-01)
+ (4) Info - optimisestepsizes (544): Increased step1 to 4.9e+00 (rej. rate = 7.678e-01)
+ (5) Info - optimisestepsizes (480): Increased step2 to 3.2e+00 (rej. rate = 7.631e-01)
+ (5) Info - optimisestepsizes (480): Decreased step3 to 1.1e+01 (rej. rate = 8.494e-01)
+ (5) Info - optimisestepsizes (480): Decreased step4 to 8.0e-01 (rej. rate = 8.375e-01)
+ (5) Info - optimisestepsizes (544): Increased step1 to 4.2e+00 (rej. rate = 7.494e-01)
+ (3) Info - optimisestepsizes (480): Increased step2 to 3.1e+00 (rej. rate = 7.572e-01)
+ (3) Info - optimisestepsizes (480): Increased step3 to 9.8e+00 (rej. rate = 7.047e-01)
+ (3) Info - optimisestepsizes (480): Increased step4 to 6.5e-01 (rej. rate = 7.335e-01)
+ (3) Info - optimisestepsizes (544): Decreased step1 to 4.4e+00 (rej. rate = 7.894e-01)
+ (2) Info - optimisestepsizes (480): Increased step2 to 4.1e+00 (rej. rate = 6.806e-01)
+ (2) Info - optimisestepsizes (480): Increased step3 to 9.8e+00 (rej. rate = 7.434e-01)
+ (2) Info - optimisestepsizes (480): Increased step4 to 9.0e-01 (rej. rate = 7.604e-01)
+ (2) Info - optimisestepsizes (544): Decreased step1 to 5.1e+00 (rej. rate = 8.316e-01)
+ (1) Info - optimisestepsizes (544): Decreased step2 to 3.7e+00 (rej. rate = 7.931e-01)
+ (1) Info - optimisestepsizes (544): Decreased step3 to 9.6e+00 (rej. rate = 8.322e-01)
+ (1) Info - optimisestepsizes (544): Increased step4 to 7.4e-01 (rej. rate = 7.631e-01)
+ (1) Info - optimisestepsizes (608): Decreased step1 to 5.2e+00 (rej. rate = 7.775e-01)
+ (4) Info - optimisestepsizes (544): Decreased step2 to 3.2e+00 (rej. rate = 8.022e-01)
+ (4) Info - optimisestepsizes (544): Decreased step3 to 7.7e+00 (rej. rate = 8.156e-01)
+ (4) Info - optimisestepsizes (544): Decreased step4 to 6.8e-01 (rej. rate = 8.040e-01)
+ (4) Info - optimisestepsizes (608): Decreased step1 to 4.8e+00 (rej. rate = 8.684e-01)
+ (5) Info - optimisestepsizes (544): Increased step2 to 4.8e+00 (rej. rate = 6.041e-01)
+ (5) Info - optimisestepsizes (544): Decreased step3 to 1.0e+01 (rej. rate = 8.506e-01)
+ (5) Info - optimisestepsizes (544): Increased step4 to 8.3e-01 (rej. rate = 7.430e-01)
+ (5) Info - optimisestepsizes (608): Increased step1 to 4.2e+00 (rej. rate = 7.731e-01)
+ (3) Info - optimisestepsizes (544): Increased step2 to 3.2e+00 (rej. rate = 7.450e-01)
+ (3) Info - optimisestepsizes (544): Increased step3 to 9.9e+00 (rej. rate = 7.737e-01)
+ (3) Info - optimisestepsizes (544): Increased step4 to 6.7e-01 (rej. rate = 7.567e-01)
+ (3) Info - optimisestepsizes (608): Increased step1 to 4.6e+00 (rej. rate = 7.309e-01)
+ (2) Info - optimisestepsizes (544): Decreased step2 to 3.5e+00 (rej. rate = 9.044e-01)
+ (2) Info - optimisestepsizes (544): Decreased step3 to 9.4e+00 (rej. rate = 8.062e-01)
+ (2) Info - optimisestepsizes (544): Decreased step4 to 6.8e-01 (rej. rate = 8.951e-01)
+ (2) Info - optimisestepsizes (608): Decreased step1 to 4.8e+00 (rej. rate = 8.300e-01)
+ (1) Info - optimisestepsizes (608): Decreased step2 to 3.5e+00 (rej. rate = 8.300e-01)
+ (1) Info - optimisestepsizes (608): Increased step3 to 9.6e+00 (rej. rate = 7.659e-01)
+ (1) Info - optimisestepsizes (608): Decreased step4 to 7.2e-01 (rej. rate = 7.976e-01)
+ (1) Info - optimisestepsizes (672): Decreased step1 to 5.0e+00 (rej. rate = 8.019e-01)
+ (4) Info - optimisestepsizes (608): Increased step2 to 3.2e+00 (rej. rate = 7.353e-01)
+ (4) Info - optimisestepsizes (608): Increased step3 to 9.6e+00 (rej. rate = 6.794e-01)
+ (4) Info - optimisestepsizes (608): Increased step4 to 7.0e-01 (rej. rate = 7.410e-01)
+ (4) Info - optimisestepsizes (672): Increased step1 to 4.8e+00 (rej. rate = 7.484e-01)
+ (5) Info - optimisestepsizes (608): Decreased step2 to 4.1e+00 (rej. rate = 9.109e-01)
+ (5) Info - optimisestepsizes (608): Decreased step3 to 1.0e+01 (rej. rate = 7.797e-01)
+ (5) Info - optimisestepsizes (608): Decreased step4 to 7.9e-01 (rej. rate = 8.623e-01)
+ (5) Info - optimisestepsizes (672): Increased step1 to 4.3e+00 (rej. rate = 7.031e-01)
+ (3) Info - optimisestepsizes (608): Increased step2 to 3.3e+00 (rej. rate = 6.784e-01)
+ (3) Info - optimisestepsizes (608): Decreased step3 to 9.5e+00 (rej. rate = 8.066e-01)
+ (3) Info - optimisestepsizes (608): Increased step4 to 7.2e-01 (rej. rate = 7.091e-01)
+ (3) Info - optimisestepsizes (672): Decreased step1 to 4.5e+00 (rej. rate = 8.325e-01)
+ (2) Info - optimisestepsizes (608): Decreased step2 to 3.2e+00 (rej. rate = 8.497e-01)
+ (2) Info - optimisestepsizes (608): Decreased step3 to 9.4e+00 (rej. rate = 7.784e-01)
+ (2) Info - optimisestepsizes (608): Decreased step4 to 5.9e-01 (rej. rate = 8.344e-01)
+ (2) Info - optimisestepsizes (672): Decreased step1 to 4.5e+00 (rej. rate = 8.259e-01)
+ (1) Info - optimisestepsizes (672): Decreased step2 to 3.3e+00 (rej. rate = 8.397e-01)
+ (1) Info - optimisestepsizes (672): Increased step3 to 9.7e+00 (rej. rate = 7.653e-01)
+ (1) Info - optimisestepsizes (672): Decreased step4 to 6.9e-01 (rej. rate = 8.122e-01)
+ (1) Info - optimisestepsizes (736): Decreased step1 to 5.0e+00 (rej. rate = 7.772e-01)
+ (4) Info - optimisestepsizes (672): Decreased step2 to 3.2e+00 (rej. rate = 8.631e-01)
+ (4) Info - optimisestepsizes (672): Decreased step3 to 9.3e+00 (rej. rate = 8.087e-01)
+ (4) Info - optimisestepsizes (672): Decreased step4 to 6.8e-01 (rej. rate = 8.400e-01)
+ (4) Info - optimisestepsizes (736): Decreased step1 to 4.8e+00 (rej. rate = 7.800e-01)
+ (5) Info - optimisestepsizes (672): Decreased step2 to 3.9e+00 (rej. rate = 8.209e-01)
+ (5) Info - optimisestepsizes (672): Decreased step3 to 9.8e+00 (rej. rate = 7.872e-01)
+ (5) Info - optimisestepsizes (672): Decreased step4 to 7.8e-01 (rej. rate = 7.910e-01)
+ (5) Info - optimisestepsizes (736): Decreased step1 to 4.3e+00 (rej. rate = 7.884e-01)
+ (3) Info - optimisestepsizes (672): Increased step2 to 3.5e+00 (rej. rate = 6.981e-01)
+ (3) Info - optimisestepsizes (672): Increased step3 to 9.5e+00 (rej. rate = 7.700e-01)
+ (3) Info - optimisestepsizes (672): Increased step4 to 7.8e-01 (rej. rate = 7.083e-01)
+ (3) Info - optimisestepsizes (736): Increased step1 to 4.5e+00 (rej. rate = 7.581e-01)
+ (2) Info - optimisestepsizes (672): Increased step2 to 3.2e+00 (rej. rate = 7.572e-01)
+ (2) Info - optimisestepsizes (672): Increased step3 to 9.5e+00 (rej. rate = 7.631e-01)
+ (2) Info - optimisestepsizes (672): Increased step4 to 6.1e-01 (rej. rate = 7.478e-01)
+ (2) Info - optimisestepsizes (736): Decreased step1 to 4.0e+00 (rej. rate = 8.781e-01)
+ (1) Info - optimisestepsizes (736): Increased step2 to 3.3e+00 (rej. rate = 7.462e-01)
+ (1) Info - optimisestepsizes (736): Decreased step3 to 9.6e+00 (rej. rate = 8.003e-01)
+ (1) Info - optimisestepsizes (736): Increased step4 to 7.1e-01 (rej. rate = 7.425e-01)
+ (1) Info - optimisestepsizes (800): Increased step1 to 5.0e+00 (rej. rate = 7.734e-01)
+ (4) Info - optimisestepsizes (736): Increased step2 to 3.2e+00 (rej. rate = 7.156e-01)
+ (4) Info - optimisestepsizes (736): Decreased step3 to 9.2e+00 (rej. rate = 7.762e-01)
+ (4) Info - optimisestepsizes (736): Increased step4 to 6.9e-01 (rej. rate = 7.372e-01)
+ (4) Info - optimisestepsizes (800): Decreased step1 to 4.8e+00 (rej. rate = 7.759e-01)
+ (5) Info - optimisestepsizes (736): Decreased step2 to 3.7e+00 (rej. rate = 8.203e-01)
+ (5) Info - optimisestepsizes (736): Decreased step3 to 9.5e+00 (rej. rate = 8.050e-01)
+ (5) Info - optimisestepsizes (736): Decreased step4 to 7.7e-01 (rej. rate = 8.080e-01)
+ (5) Info - optimisestepsizes (800): Increased step1 to 4.3e+00 (rej. rate = 7.259e-01)
+ (3) Info - optimisestepsizes (736): Increased step2 to 3.6e+00 (rej. rate = 7.431e-01)
+ (3) Info - optimisestepsizes (736): Decreased step3 to 9.5e+00 (rej. rate = 8.037e-01)
+ (3) Info - optimisestepsizes (736): Decreased step4 to 7.8e-01 (rej. rate = 7.764e-01)
+ (3) Info - optimisestepsizes (800): Decreased step1 to 4.5e+00 (rej. rate = 8.262e-01)
+ (2) Info - optimisestepsizes (736): Increased step2 to 3.4e+00 (rej. rate = 6.841e-01)
+ (2) Info - optimisestepsizes (736): Increased step3 to 9.5e+00 (rej. rate = 7.650e-01)
+ (2) Info - optimisestepsizes (736): Decreased step4 to 6.1e-01 (rej. rate = 7.785e-01)
+ (2) Info - optimisestepsizes (800): Increased step1 to 4.1e+00 (rej. rate = 7.587e-01)
+ (1) Info - optimisestepsizes (800): Decreased step2 to 3.2e+00 (rej. rate = 8.475e-01)
+ (1) Info - optimisestepsizes (800): Increased step3 to 9.7e+00 (rej. rate = 7.159e-01)
+ (1) Info - optimisestepsizes (800): Decreased step4 to 6.9e-01 (rej. rate = 8.403e-01)
+ (1) Info - optimisestepsizes (864): Increased step1 to 5.1e+00 (rej. rate = 7.378e-01)
+ (4) Info - optimisestepsizes (800): Increased step2 to 3.2e+00 (rej. rate = 6.334e-01)
+ (4) Info - optimisestepsizes (800): Decreased step3 to 9.1e+00 (rej. rate = 7.853e-01)
+ (4) Info - optimisestepsizes (800): Increased step4 to 7.0e-01 (rej. rate = 6.875e-01)
+ (4) Info - optimisestepsizes (864): Decreased step1 to 4.7e+00 (rej. rate = 8.784e-01)
+ (5) Info - optimisestepsizes (800): Decreased step2 to 3.4e+00 (rej. rate = 8.478e-01)
+ (5) Info - optimisestepsizes (800): Decreased step3 to 9.2e+00 (rej. rate = 8.041e-01)
+ (5) Info - optimisestepsizes (800): Decreased step4 to 7.5e-01 (rej. rate = 8.172e-01)
+ (5) Info - optimisestepsizes (864): Increased step1 to 4.4e+00 (rej. rate = 7.084e-01)
+ (3) Info - optimisestepsizes (800): Decreased step2 to 3.5e+00 (rej. rate = 7.869e-01)
+ (3) Info - optimisestepsizes (800): Decreased step3 to 9.4e+00 (rej. rate = 7.991e-01)
+ (3) Info - optimisestepsizes (800): Decreased step4 to 7.6e-01 (rej. rate = 8.204e-01)
+ (3) Info - optimisestepsizes (864): Decreased step1 to 4.5e+00 (rej. rate = 8.019e-01)
+ (2) Info - optimisestepsizes (800): Increased step2 to 3.5e+00 (rej. rate = 7.550e-01)
+ (2) Info - optimisestepsizes (800): Decreased step3 to 9.5e+00 (rej. rate = 7.772e-01)
+ (2) Info - optimisestepsizes (800): Increased step4 to 6.2e-01 (rej. rate = 7.571e-01)
+ (2) Info - optimisestepsizes (864): Decreased step1 to 3.9e+00 (rej. rate = 8.734e-01)
+ (1) Info - optimisestepsizes (864): Increased step2 to 3.3e+00 (rej. rate = 6.725e-01)
+ (1) Info - optimisestepsizes (864): Decreased step3 to 9.7e+00 (rej. rate = 8.031e-01)
+ (1) Info - optimisestepsizes (864): Increased step4 to 7.0e-01 (rej. rate = 7.025e-01)
+ (1) Info - optimisestepsizes (928): Decreased step1 to 4.9e+00 (rej. rate = 9.169e-01)
+ (4) Info - optimisestepsizes (864): Increased step2 to 3.3e+00 (rej. rate = 7.484e-01)
+ (4) Info - optimisestepsizes (864): Increased step3 to 9.3e+00 (rej. rate = 7.462e-01)
+ (4) Info - optimisestepsizes (864): Increased step4 to 7.0e-01 (rej. rate = 7.682e-01)
+ (4) Info - optimisestepsizes (928): Increased step1 to 4.7e+00 (rej. rate = 7.512e-01)
+ (5) Info - optimisestepsizes (864): Increased step2 to 3.4e+00 (rej. rate = 7.575e-01)
+ (5) Info - optimisestepsizes (864): Decreased step3 to 9.2e+00 (rej. rate = 7.766e-01)
+ (5) Info - optimisestepsizes (864): Decreased step4 to 7.5e-01 (rej. rate = 7.831e-01)
+ (5) Info - optimisestepsizes (928): Decreased step1 to 4.4e+00 (rej. rate = 7.769e-01)
+ (3) Info - optimisestepsizes (864): Increased step2 to 3.6e+00 (rej. rate = 7.522e-01)
+ (3) Info - optimisestepsizes (864): Increased step3 to 9.4e+00 (rej. rate = 7.706e-01)
+ (3) Info - optimisestepsizes (864): Increased step4 to 7.6e-01 (rej. rate = 7.706e-01)
+ (3) Info - optimisestepsizes (928): Decreased step1 to 4.5e+00 (rej. rate = 7.856e-01)
+ (2) Info - optimisestepsizes (864): Increased step2 to 3.7e+00 (rej. rate = 6.594e-01)
+ (2) Info - optimisestepsizes (864): Decreased step3 to 9.4e+00 (rej. rate = 8.137e-01)
+ (2) Info - optimisestepsizes (864): Increased step4 to 6.3e-01 (rej. rate = 7.133e-01)
+ (2) Info - optimisestepsizes (928): Increased step1 to 4.0e+00 (rej. rate = 7.491e-01)
+ (1) Info - optimisestepsizes (928): Decreased step2 to 3.3e+00 (rej. rate = 8.150e-01)
+ (1) Info - optimisestepsizes (928): Increased step3 to 9.7e+00 (rej. rate = 7.694e-01)
+ (1) Info - optimisestepsizes (928): Decreased step4 to 7.0e-01 (rej. rate = 8.416e-01)
+ (1) Info - optimisestepsizes (992): Decreased step1 to 4.8e+00 (rej. rate = 8.566e-01)
+ (4) Info - optimisestepsizes (928): Increased step2 to 3.3e+00 (rej. rate = 6.991e-01)
+ (4) Info - optimisestepsizes (928): Increased step3 to 9.5e+00 (rej. rate = 7.369e-01)
+ (4) Info - optimisestepsizes (928): Increased step4 to 7.0e-01 (rej. rate = 7.165e-01)
+ (4) Info - optimisestepsizes (992): Decreased step1 to 4.7e+00 (rej. rate = 8.503e-01)
+ (5) Info - optimisestepsizes (928): Decreased step2 to 3.4e+00 (rej. rate = 8.028e-01)
+ (5) Info - optimisestepsizes (928): Increased step3 to 9.5e+00 (rej. rate = 7.025e-01)
+ (5) Info - optimisestepsizes (928): Decreased step4 to 7.4e-01 (rej. rate = 7.917e-01)
+ (5) Info - optimisestepsizes (992): Increased step1 to 4.4e+00 (rej. rate = 7.422e-01)
+ (3) Info - optimisestepsizes (928): Increased step2 to 3.6e+00 (rej. rate = 7.459e-01)
+ (3) Info - optimisestepsizes (928): Increased step3 to 9.4e+00 (rej. rate = 7.731e-01)
+ (3) Info - optimisestepsizes (928): Increased step4 to 7.6e-01 (rej. rate = 7.585e-01)
+ (3) Info - optimisestepsizes (992): Decreased step1 to 4.5e+00 (rej. rate = 8.084e-01)
+ (1) Info - optimisestepsizes (992): Increased step2 to 3.3e+00 (rej. rate = 7.541e-01)
+ (1) Info - optimisestepsizes (992): Decreased step3 to 9.7e+00 (rej. rate = 8.044e-01)
+ (1) Info - optimisestepsizes (992): Increased step4 to 7.0e-01 (rej. rate = 7.615e-01)
+ (1)...current output at MCit=1000 (1327.118 sec)(logtarget_curr = -1.41350659e+03):
+ (2) Info - optimisestepsizes (928): Decreased step2 to 3.6e+00 (rej. rate = 8.406e-01)
+ (2) Info - optimisestepsizes (928): Increased step3 to 9.4e+00 (rej. rate = 7.697e-01)
+ (2) Info - optimisestepsizes (928): Decreased step4 to 6.3e-01 (rej. rate = 7.852e-01)
+ (2) Info - optimisestepsizes (992): Increased step1 to 4.0e+00 (rej. rate = 7.566e-01)
+ (4) Info - optimisestepsizes (992): Increased step2 to 3.3e+00 (rej. rate = 7.694e-01)
+ (4) Info - optimisestepsizes (992): Decreased step3 to 9.4e+00 (rej. rate = 8.000e-01)
+ (4) Info - optimisestepsizes (992): Increased step4 to 7.0e-01 (rej. rate = 7.739e-01)
+ (4)...current output at MCit=1000 (1330.791 sec)(logtarget_curr = -9.09739307e+02):
+ (5) Info - optimisestepsizes (992): Increased step2 to 3.4e+00 (rej. rate = 7.234e-01)
+ (5) Info - optimisestepsizes (992): Decreased step3 to 9.5e+00 (rej. rate = 7.844e-01)
+ (5) Info - optimisestepsizes (992): Increased step4 to 7.4e-01 (rej. rate = 7.508e-01)
+ (5)...current output at MCit=1000 (1330.529 sec)(logtarget_curr = -1.23724667e+03):
+ (3) Info - optimisestepsizes (992): Increased step2 to 3.6e+00 (rej. rate = 7.141e-01)
+ (3) Info - optimisestepsizes (992): Decreased step3 to 9.4e+00 (rej. rate = 7.766e-01)
+ (3) Info - optimisestepsizes (992): Increased step4 to 7.7e-01 (rej. rate = 7.536e-01)
+ (3)...current output at MCit=1000 (1333.233 sec)(logtarget_curr = -7.95144185e+02):
+ (2) Info - optimisestepsizes (992): Decreased step2 to 3.6e+00 (rej. rate = 8.406e-01)
+ (2) Info - optimisestepsizes (992): Decreased step3 to 9.4e+00 (rej. rate = 7.859e-01)
+ (2) Info - optimisestepsizes (992): Increased step4 to 6.3e-01 (rej. rate = 7.636e-01)
+ (2)...current output at MCit=1000 (1338.123 sec)(logtarget_curr = -1.39033492e+03):
+ (1) ...state 1:	(50 measurements, [ 100.00% ])
+ (1)  l12 = 3.938e+01	l13 = 7.488e+01	
+ (1)  l23 = 3.996e+01	
+ (1)  merr1 = [ 1.46e+01 4.44e+00 ]	merr2 = [ 7.49e+00 2.05e+01 ]	merr3 = [ 1.80e+01 3.06e+01 ]	
+ (1) rejection rates: [ 0.8425 0.6275 0.7425 0.6463 ]
+ (1) Info - optimisestepsizes (1056): Decreased step1 to 4.7e+00 (rej. rate = 8.212e-01)
+ (5) ...state 1:	(50 measurements, [ 100.00% ])
+ (5)  l12 = 4.530e+01	l13 = 7.759e+01	
+ (5)  l23 = 4.103e+01	
+ (5)  merr1 = [ 1.36e+01 9.64e+00 ]	merr2 = [ 1.16e+00 2.30e+01 ]	merr3 = [ 1.69e+01 3.29e+01 ]	
+ (5) rejection rates: [ 0.7050 0.9825 0.8225 0.9476 ]
+ (5) Info - optimisestepsizes (1056): Increased step1 to 4.4e+00 (rej. rate = 7.650e-01)
+ (4) ...state 1:	(50 measurements, [ 100.00% ])
+ (4)  l12 = 3.865e+01	l13 = 7.639e+01	
+ (4)  l23 = 4.295e+01	
+ (4)  merr1 = [ 1.78e+01 7.13e+00 ]	merr2 = [ 3.26e-02 2.49e+01 ]	merr3 = [ 1.54e+01 4.34e+01 ]	
+ (4) rejection rates: [ 0.6350 1.0000 0.7500 0.9997 ]
+ (4) Info - optimisestepsizes (1056): Increased step1 to 4.7e+00 (rej. rate = 7.425e-01)
+ (3) ...state 1:	(50 measurements, [ 100.00% ])
+ (3)  l12 = 4.684e+01	l13 = 8.051e+01	
+ (3)  l23 = 4.246e+01	
+ (3)  merr1 = [ 1.19e+01 9.30e-02 ]	merr2 = [ 1.36e-01 2.84e+01 ]	merr3 = [ 1.69e+01 3.83e+01 ]	
+ (3) rejection rates: [ 0.6875 0.9300 0.8125 0.8721 ]
+ (3) Info - optimisestepsizes (1056): Increased step1 to 4.5e+00 (rej. rate = 7.253e-01)
+ (2) ...state 1:	(50 measurements, [ 100.00% ])
+ (2)  l12 = 4.238e+01	l13 = 7.940e+01	
+ (2)  l23 = 4.425e+01	
+ (2)  merr1 = [ 6.87e+00 9.08e+00 ]	merr2 = [ 1.22e+01 1.81e+01 ]	merr3 = [ 1.46e+01 4.68e+01 ]	
+ (2) rejection rates: [ 0.8825 0.6450 0.7950 0.6546 ]
+ (2) Info - optimisestepsizes (1056): Decreased step1 to 4.0e+00 (rej. rate = 8.184e-01)
+ (1) Info - optimisestepsizes (1056): Increased step2 to 3.3e+00 (rej. rate = 6.547e-01)
+ (1) Info - optimisestepsizes (1056): Decreased step3 to 9.7e+00 (rej. rate = 7.981e-01)
+ (1) Info - optimisestepsizes (1056): Increased step4 to 7.0e-01 (rej. rate = 7.025e-01)
+ (1) Info - optimisestepsizes (1120): Decreased step1 to 4.6e+00 (rej. rate = 8.613e-01)
+ (5) Info - optimisestepsizes (1056): Decreased step2 to 3.4e+00 (rej. rate = 8.678e-01)
+ (5) Info - optimisestepsizes (1056): Decreased step3 to 9.5e+00 (rej. rate = 7.875e-01)
+ (5) Info - optimisestepsizes (1056): Decreased step4 to 7.4e-01 (rej. rate = 8.528e-01)
+ (5) Info - optimisestepsizes (1120): Increased step1 to 4.4e+00 (rej. rate = 6.837e-01)
+ (4) Info - optimisestepsizes (1056): Decreased step2 to 3.3e+00 (rej. rate = 8.109e-01)
+ (4) Info - optimisestepsizes (1056): Decreased step3 to 9.4e+00 (rej. rate = 7.909e-01)
+ (4) Info - optimisestepsizes (1056): Decreased step4 to 7.0e-01 (rej. rate = 8.328e-01)
+ (4) Info - optimisestepsizes (1120): Decreased step1 to 4.7e+00 (rej. rate = 7.884e-01)
+ (3) Info - optimisestepsizes (1056): Decreased step2 to 3.6e+00 (rej. rate = 8.275e-01)
+ (3) Info - optimisestepsizes (1056): Increased step3 to 9.4e+00 (rej. rate = 7.719e-01)
+ (3) Info - optimisestepsizes (1056): Decreased step4 to 7.6e-01 (rej. rate = 8.146e-01)
+ (3) Info - optimisestepsizes (1120): Increased step1 to 4.5e+00 (rej. rate = 7.347e-01)
+ (2) Info - optimisestepsizes (1056): Increased step2 to 3.6e+00 (rej. rate = 7.169e-01)
+ (2) Info - optimisestepsizes (1056): Increased step3 to 9.4e+00 (rej. rate = 7.622e-01)
+ (2) Info - optimisestepsizes (1056): Increased step4 to 6.3e-01 (rej. rate = 7.207e-01)
+ (2) Info - optimisestepsizes (1120): Increased step1 to 4.0e+00 (rej. rate = 7.584e-01)
+ (1) Info - optimisestepsizes (1120): Decreased step2 to 3.3e+00 (rej. rate = 8.247e-01)
+ (1) Info - optimisestepsizes (1120): Decreased step3 to 9.7e+00 (rej. rate = 7.809e-01)
+ (1) Info - optimisestepsizes (1120): Decreased step4 to 7.0e-01 (rej. rate = 8.036e-01)
+ (1) Info - optimisestepsizes (1184): Increased step1 to 4.7e+00 (rej. rate = 7.103e-01)
+ (5) Info - optimisestepsizes (1120): Decreased step2 to 3.4e+00 (rej. rate = 8.769e-01)
+ (5) Info - optimisestepsizes (1120): Increased step3 to 9.5e+00 (rej. rate = 7.650e-01)
+ (5) Info - optimisestepsizes (1120): Decreased step4 to 7.3e-01 (rej. rate = 8.410e-01)
+ (5) Info - optimisestepsizes (1184): Increased step1 to 4.4e+00 (rej. rate = 7.381e-01)
+ (4) Info - optimisestepsizes (1120): Decreased step2 to 3.3e+00 (rej. rate = 7.837e-01)
+ (4) Info - optimisestepsizes (1120): Increased step3 to 9.4e+00 (rej. rate = 7.691e-01)
+ (4) Info - optimisestepsizes (1120): Increased step4 to 7.0e-01 (rej. rate = 7.750e-01)
+ (4) Info - optimisestepsizes (1184): Decreased step1 to 4.7e+00 (rej. rate = 7.756e-01)
+ (3) Info - optimisestepsizes (1120): Decreased step2 to 3.6e+00 (rej. rate = 8.053e-01)
+ (3) Info - optimisestepsizes (1120): Increased step3 to 9.4e+00 (rej. rate = 7.506e-01)
+ (3) Info - optimisestepsizes (1120): Decreased step4 to 7.6e-01 (rej. rate = 7.934e-01)
+ (3) Info - optimisestepsizes (1184): Increased step1 to 4.5e+00 (rej. rate = 6.956e-01)
+ (2) Info - optimisestepsizes (1120): Decreased step2 to 3.6e+00 (rej. rate = 8.494e-01)
+ (2) Info - optimisestepsizes (1120): Increased step3 to 9.4e+00 (rej. rate = 7.700e-01)
+ (2) Info - optimisestepsizes (1120): Decreased step4 to 6.3e-01 (rej. rate = 7.923e-01)
+ (2) Info - optimisestepsizes (1184): Increased step1 to 4.0e+00 (rej. rate = 7.509e-01)
+ (1) Info - optimisestepsizes (1184): Increased step2 to 3.3e+00 (rej. rate = 7.375e-01)
+ (1) Info - optimisestepsizes (1184): Decreased step3 to 9.7e+00 (rej. rate = 8.175e-01)
+ (1) Info - optimisestepsizes (1184): Increased step4 to 7.0e-01 (rej. rate = 7.519e-01)
+ (1) Info - optimisestepsizes (1248): Increased step1 to 4.7e+00 (rej. rate = 7.125e-01)
+ (5) Info - optimisestepsizes (1184): Increased step2 to 3.4e+00 (rej. rate = 6.484e-01)
+ (5) Info - optimisestepsizes (1184): Decreased step3 to 9.5e+00 (rej. rate = 7.937e-01)
+ (5) Info - optimisestepsizes (1184): Increased step4 to 7.3e-01 (rej. rate = 7.044e-01)
+ (5) Info - optimisestepsizes (1248): Decreased step1 to 4.4e+00 (rej. rate = 7.784e-01)
+ (3) Info - optimisestepsizes (1184): Decreased step2 to 3.6e+00 (rej. rate = 8.406e-01)
+ (3) Info - optimisestepsizes (1184): Decreased step3 to 9.4e+00 (rej. rate = 7.878e-01)
+ (3) Info - optimisestepsizes (1184): Decreased step4 to 7.6e-01 (rej. rate = 8.292e-01)
+ (3) Info - optimisestepsizes (1248): Increased step1 to 4.5e+00 (rej. rate = 7.516e-01)
+ (4) Info - optimisestepsizes (1184): Increased step2 to 3.3e+00 (rej. rate = 7.387e-01)
+ (4) Info - optimisestepsizes (1184): Decreased step3 to 9.4e+00 (rej. rate = 8.009e-01)
+ (4) Info - optimisestepsizes (1184): Increased step4 to 7.0e-01 (rej. rate = 7.528e-01)
+ (4) Info - optimisestepsizes (1248): Decreased step1 to 4.7e+00 (rej. rate = 7.872e-01)
+ (2) Info - optimisestepsizes (1184): Increased step2 to 3.6e+00 (rej. rate = 6.987e-01)
+ (2) Info - optimisestepsizes (1184): Decreased step3 to 9.4e+00 (rej. rate = 7.822e-01)
+ (2) Info - optimisestepsizes (1184): Increased step4 to 6.3e-01 (rej. rate = 7.113e-01)
+ (2) Info - optimisestepsizes (1248): Increased step1 to 4.0e+00 (rej. rate = 7.522e-01)
+ (1) Info - optimisestepsizes (1248): Decreased step2 to 3.3e+00 (rej. rate = 7.984e-01)
+ (1) Info - optimisestepsizes (1248): Decreased step3 to 9.7e+00 (rej. rate = 8.078e-01)
+ (1) Info - optimisestepsizes (1248): Decreased step4 to 7.0e-01 (rej. rate = 7.798e-01)
+ (1) Info - optimisestepsizes (1312): Increased step1 to 4.8e+00 (rej. rate = 7.191e-01)
+ (5) Info - optimisestepsizes (1248): Increased step2 to 3.4e+00 (rej. rate = 7.403e-01)
+ (5) Info - optimisestepsizes (1248): Decreased step3 to 9.5e+00 (rej. rate = 8.181e-01)
+ (5) Info - optimisestepsizes (1248): Decreased step4 to 7.3e-01 (rej. rate = 7.763e-01)
+ (5) Info - optimisestepsizes (1312): Increased step1 to 4.4e+00 (rej. rate = 7.206e-01)
+ (3) Info - optimisestepsizes (1248): Increased step2 to 3.6e+00 (rej. rate = 6.425e-01)
+ (3) Info - optimisestepsizes (1248): Decreased step3 to 9.4e+00 (rej. rate = 8.309e-01)
+ (3) Info - optimisestepsizes (1248): Increased step4 to 7.6e-01 (rej. rate = 7.277e-01)
+ (3) Info - optimisestepsizes (1312): Increased step1 to 4.5e+00 (rej. rate = 7.034e-01)
+ (4) Info - optimisestepsizes (1248): Increased step2 to 3.3e+00 (rej. rate = 7.531e-01)
+ (4) Info - optimisestepsizes (1248): Increased step3 to 9.4e+00 (rej. rate = 7.394e-01)
+ (4) Info - optimisestepsizes (1248): Increased step4 to 7.0e-01 (rej. rate = 7.355e-01)
+ (4) Info - optimisestepsizes (1312): Increased step1 to 4.7e+00 (rej. rate = 6.962e-01)
+ (2) Info - optimisestepsizes (1248): Increased step2 to 3.6e+00 (rej. rate = 7.037e-01)
+ (2) Info - optimisestepsizes (1248): Decreased step3 to 9.4e+00 (rej. rate = 7.766e-01)
+ (2) Info - optimisestepsizes (1248): Increased step4 to 6.3e-01 (rej. rate = 6.805e-01)
+ (2) Info - optimisestepsizes (1312): Increased step1 to 4.0e+00 (rej. rate = 6.994e-01)
+ (1) Info - optimisestepsizes (1312): Increased step2 to 3.3e+00 (rej. rate = 7.603e-01)
+ (1) Info - optimisestepsizes (1312): Decreased step3 to 9.7e+00 (rej. rate = 7.866e-01)
+ (1) Info - optimisestepsizes (1312): Increased step4 to 7.0e-01 (rej. rate = 7.636e-01)
+ (1) Info - optimisestepsizes (1376): Increased step1 to 4.8e+00 (rej. rate = 7.212e-01)
+ (5) Info - optimisestepsizes (1312): Decreased step2 to 3.4e+00 (rej. rate = 7.975e-01)
+ (5) Info - optimisestepsizes (1312): Decreased step3 to 9.5e+00 (rej. rate = 7.775e-01)
+ (5) Info - optimisestepsizes (1312): Decreased step4 to 7.3e-01 (rej. rate = 7.839e-01)
+ (5) Info - optimisestepsizes (1376): Decreased step1 to 4.4e+00 (rej. rate = 8.062e-01)
+ (4) Info - optimisestepsizes (1312): Decreased step2 to 3.3e+00 (rej. rate = 8.056e-01)
+ (4) Info - optimisestepsizes (1312): Decreased step3 to 9.4e+00 (rej. rate = 7.784e-01)
+ (4) Info - optimisestepsizes (1312): Decreased step4 to 7.0e-01 (rej. rate = 7.929e-01)
+ (4) Info - optimisestepsizes (1376): Decreased step1 to 4.7e+00 (rej. rate = 7.800e-01)
+ (3) Info - optimisestepsizes (1312): Increased step2 to 3.6e+00 (rej. rate = 6.428e-01)
+ (3) Info - optimisestepsizes (1312): Decreased step3 to 9.4e+00 (rej. rate = 8.094e-01)
+ (3) Info - optimisestepsizes (1312): Increased step4 to 7.6e-01 (rej. rate = 6.978e-01)
+ (3) Info - optimisestepsizes (1376): Decreased step1 to 4.5e+00 (rej. rate = 7.912e-01)
+ (2) Info - optimisestepsizes (1312): Increased step2 to 3.6e+00 (rej. rate = 7.734e-01)
+ (2) Info - optimisestepsizes (1312): Increased step3 to 9.4e+00 (rej. rate = 7.328e-01)
+ (2) Info - optimisestepsizes (1312): Increased step4 to 6.3e-01 (rej. rate = 7.155e-01)
+ (2) Info - optimisestepsizes (1376): Increased step1 to 4.0e+00 (rej. rate = 6.825e-01)
+ (1) Info - optimisestepsizes (1376): Decreased step2 to 3.3e+00 (rej. rate = 8.628e-01)
+ (1) Info - optimisestepsizes (1376): Increased step3 to 9.7e+00 (rej. rate = 7.437e-01)
+ (1) Info - optimisestepsizes (1376): Decreased step4 to 7.0e-01 (rej. rate = 8.667e-01)
+ (1) Info - optimisestepsizes (1440): Increased step1 to 4.8e+00 (rej. rate = 7.631e-01)
+ (5) Info - optimisestepsizes (1376): Increased step2 to 3.4e+00 (rej. rate = 6.678e-01)
+ (5) Info - optimisestepsizes (1376): Increased step3 to 9.5e+00 (rej. rate = 7.637e-01)
+ (5) Info - optimisestepsizes (1376): Increased step4 to 7.3e-01 (rej. rate = 7.230e-01)
+ (5) Info - optimisestepsizes (1440): Increased step1 to 4.4e+00 (rej. rate = 7.622e-01)
+ (4) Info - optimisestepsizes (1376): Increased step2 to 3.3e+00 (rej. rate = 7.562e-01)
+ (4) Info - optimisestepsizes (1376): Decreased step3 to 9.4e+00 (rej. rate = 8.056e-01)
+ (4) Info - optimisestepsizes (1376): Increased step4 to 7.0e-01 (rej. rate = 7.588e-01)
+ (4) Info - optimisestepsizes (1440): Increased step1 to 4.7e+00 (rej. rate = 7.441e-01)
+ (3) Info - optimisestepsizes (1376): Increased step2 to 3.6e+00 (rej. rate = 7.384e-01)
+ (3) Info - optimisestepsizes (1376): Increased step3 to 9.4e+00 (rej. rate = 7.616e-01)
+ (3) Info - optimisestepsizes (1376): Increased step4 to 7.6e-01 (rej. rate = 7.452e-01)
+ (3) Info - optimisestepsizes (1440): Decreased step1 to 4.5e+00 (rej. rate = 8.141e-01)
+ (2) Info - optimisestepsizes (1376): Increased step2 to 3.6e+00 (rej. rate = 7.466e-01)
+ (2) Info - optimisestepsizes (1376): Decreased step3 to 9.4e+00 (rej. rate = 7.978e-01)
+ (2) Info - optimisestepsizes (1376): Increased step4 to 6.3e-01 (rej. rate = 6.923e-01)
+ (2) Info - optimisestepsizes (1440): Increased step1 to 4.0e+00 (rej. rate = 7.503e-01)
+ (1) Info - optimisestepsizes (1440): Decreased step2 to 3.3e+00 (rej. rate = 8.775e-01)
+ (1) Info - optimisestepsizes (1440): Increased step3 to 9.7e+00 (rej. rate = 7.444e-01)
+ (1) Info - optimisestepsizes (1440): Decreased step4 to 7.0e-01 (rej. rate = 8.516e-01)
+ (1) Info - optimisestepsizes (1504): Decreased step1 to 4.8e+00 (rej. rate = 8.428e-01)
+ (5) Info - optimisestepsizes (1440): Increased step2 to 3.4e+00 (rej. rate = 7.212e-01)
+ (5) Info - optimisestepsizes (1440): Increased step3 to 9.5e+00 (rej. rate = 7.697e-01)
+ (5) Info - optimisestepsizes (1440): Increased step4 to 7.3e-01 (rej. rate = 7.361e-01)
+ (5) Info - optimisestepsizes (1504): Decreased step1 to 4.4e+00 (rej. rate = 7.856e-01)
+ (4) Info - optimisestepsizes (1440): Decreased step2 to 3.3e+00 (rej. rate = 8.100e-01)
+ (4) Info - optimisestepsizes (1440): Increased step3 to 9.4e+00 (rej. rate = 7.616e-01)
+ (4) Info - optimisestepsizes (1440): Decreased step4 to 7.0e-01 (rej. rate = 8.001e-01)
+ (4) Info - optimisestepsizes (1504): Increased step1 to 4.7e+00 (rej. rate = 7.537e-01)
+ (3) Info - optimisestepsizes (1440): Increased step2 to 3.6e+00 (rej. rate = 7.659e-01)
+ (3) Info - optimisestepsizes (1440): Increased step3 to 9.4e+00 (rej. rate = 7.678e-01)
+ (3) Info - optimisestepsizes (1440): Increased step4 to 7.6e-01 (rej. rate = 7.589e-01)
+ (3) Info - optimisestepsizes (1504): Decreased step1 to 4.5e+00 (rej. rate = 7.916e-01)
+ (2) Info - optimisestepsizes (1440): Decreased step2 to 3.6e+00 (rej. rate = 7.819e-01)
+ (2) Info - optimisestepsizes (1440): Decreased step3 to 9.4e+00 (rej. rate = 7.969e-01)
+ (2) Info - optimisestepsizes (1440): Increased step4 to 6.3e-01 (rej. rate = 7.222e-01)
+ (2) Info - optimisestepsizes (1504): Decreased step1 to 4.0e+00 (rej. rate = 7.853e-01)
+ (1) Info - optimisestepsizes (1504): Decreased step2 to 3.3e+00 (rej. rate = 7.900e-01)
+ (1) Info - optimisestepsizes (1504): Increased step3 to 9.7e+00 (rej. rate = 7.106e-01)
+ (1) Info - optimisestepsizes (1504): Decreased step4 to 7.0e-01 (rej. rate = 7.998e-01)
+ (1) Info - optimisestepsizes (1568): Decreased step1 to 4.8e+00 (rej. rate = 7.900e-01)
+ (5) Info - optimisestepsizes (1504): Decreased step2 to 3.4e+00 (rej. rate = 9.622e-01)
+ (5) Info - optimisestepsizes (1504): Increased step3 to 9.5e+00 (rej. rate = 7.337e-01)
+ (5) Info - optimisestepsizes (1504): Decreased step4 to 7.3e-01 (rej. rate = 9.432e-01)
+ (5) Info - optimisestepsizes (1568): Increased step1 to 4.4e+00 (rej. rate = 7.697e-01)
+ (4) Info - optimisestepsizes (1504): Increased step2 to 3.3e+00 (rej. rate = 7.031e-01)
+ (4) Info - optimisestepsizes (1504): Decreased step3 to 9.4e+00 (rej. rate = 8.012e-01)
+ (4) Info - optimisestepsizes (1504): Increased step4 to 7.0e-01 (rej. rate = 7.302e-01)
+ (4) Info - optimisestepsizes (1568): Decreased step1 to 4.7e+00 (rej. rate = 7.775e-01)
+ (3) Info - optimisestepsizes (1504): Increased step2 to 3.6e+00 (rej. rate = 7.325e-01)
+ (3) Info - optimisestepsizes (1504): Increased step3 to 9.4e+00 (rej. rate = 7.659e-01)
+ (3) Info - optimisestepsizes (1504): Increased step4 to 7.7e-01 (rej. rate = 7.651e-01)
+ (3) Info - optimisestepsizes (1568): Increased step1 to 4.5e+00 (rej. rate = 7.719e-01)
+ (2) Info - optimisestepsizes (1504): Increased step2 to 3.6e+00 (rej. rate = 7.319e-01)
+ (2) Info - optimisestepsizes (1504): Decreased step3 to 9.4e+00 (rej. rate = 7.875e-01)
+ (2) Info - optimisestepsizes (1504): Increased step4 to 6.3e-01 (rej. rate = 7.526e-01)
+ (2) Info - optimisestepsizes (1568): Increased step1 to 4.0e+00 (rej. rate = 5.537e-01)
+ (1) Info - optimisestepsizes (1568): Increased step2 to 3.3e+00 (rej. rate = 6.919e-01)
+ (1) Info - optimisestepsizes (1568): Decreased step3 to 9.7e+00 (rej. rate = 7.925e-01)
+ (1) Info - optimisestepsizes (1568): Decreased step4 to 7.0e-01 (rej. rate = 7.762e-01)
+ (1) Info - optimisestepsizes (1632): Increased step1 to 4.8e+00 (rej. rate = 7.441e-01)
+ (5) Info - optimisestepsizes (1568): Increased step2 to 3.4e+00 (rej. rate = 7.141e-01)
+ (5) Info - optimisestepsizes (1568): Decreased step3 to 9.5e+00 (rej. rate = 7.916e-01)
+ (5) Info - optimisestepsizes (1568): Increased step4 to 7.3e-01 (rej. rate = 7.397e-01)
+ (5) Info - optimisestepsizes (1632): Increased step1 to 4.4e+00 (rej. rate = 7.716e-01)
+ (4) Info - optimisestepsizes (1568): Increased step2 to 3.3e+00 (rej. rate = 6.869e-01)
+ (4) Info - optimisestepsizes (1568): Decreased step3 to 9.4e+00 (rej. rate = 7.816e-01)
+ (4) Info - optimisestepsizes (1568): Increased step4 to 7.0e-01 (rej. rate = 7.080e-01)
+ (4) Info - optimisestepsizes (1632): Increased step1 to 4.7e+00 (rej. rate = 7.712e-01)
+ (3) Info - optimisestepsizes (1568): Decreased step2 to 3.6e+00 (rej. rate = 7.919e-01)
+ (3) Info - optimisestepsizes (1568): Increased step3 to 9.4e+00 (rej. rate = 7.394e-01)
+ (3) Info - optimisestepsizes (1568): Decreased step4 to 7.6e-01 (rej. rate = 8.103e-01)
+ (3) Info - optimisestepsizes (1632): Decreased step1 to 4.5e+00 (rej. rate = 7.978e-01)
+ (2) Info - optimisestepsizes (1568): Decreased step2 to 3.6e+00 (rej. rate = 9.453e-01)
+ (2) Info - optimisestepsizes (1568): Decreased step3 to 9.4e+00 (rej. rate = 8.106e-01)
+ (2) Info - optimisestepsizes (1568): Decreased step4 to 6.3e-01 (rej. rate = 9.058e-01)
+ (2) Info - optimisestepsizes (1632): Increased step1 to 4.0e+00 (rej. rate = 7.612e-01)
+ (1) Info - optimisestepsizes (1632): Decreased step2 to 3.3e+00 (rej. rate = 8.450e-01)
+ (1) Info - optimisestepsizes (1632): Decreased step3 to 9.7e+00 (rej. rate = 8.050e-01)
+ (1) Info - optimisestepsizes (1632): Decreased step4 to 7.0e-01 (rej. rate = 8.476e-01)
+ (1) Info - optimisestepsizes (1696): Increased step1 to 4.8e+00 (rej. rate = 7.481e-01)
+ (5) Info - optimisestepsizes (1632): Increased step2 to 3.4e+00 (rej. rate = 6.484e-01)
+ (5) Info - optimisestepsizes (1632): Decreased step3 to 9.5e+00 (rej. rate = 8.000e-01)
+ (5) Info - optimisestepsizes (1632): Increased step4 to 7.3e-01 (rej. rate = 7.247e-01)
+ (5) Info - optimisestepsizes (1696): Increased step1 to 4.4e+00 (rej. rate = 6.906e-01)
+ (4) Info - optimisestepsizes (1632): Increased step2 to 3.3e+00 (rej. rate = 7.525e-01)
+ (4) Info - optimisestepsizes (1632): Decreased step3 to 9.4e+00 (rej. rate = 8.009e-01)
+ (4) Info - optimisestepsizes (1632): Decreased step4 to 7.0e-01 (rej. rate = 7.758e-01)
+ (4) Info - optimisestepsizes (1696): Decreased step1 to 4.7e+00 (rej. rate = 8.112e-01)
+ (3) Info - optimisestepsizes (1632): Increased step2 to 3.6e+00 (rej. rate = 7.734e-01)
+ (3) Info - optimisestepsizes (1632): Decreased step3 to 9.4e+00 (rej. rate = 7.959e-01)
+ (3) Info - optimisestepsizes (1632): Decreased step4 to 7.6e-01 (rej. rate = 7.976e-01)
+ (3) Info - optimisestepsizes (1696): Increased step1 to 4.5e+00 (rej. rate = 7.487e-01)
+ (2) Info - optimisestepsizes (1632): Increased step2 to 3.6e+00 (rej. rate = 7.284e-01)
+ (2) Info - optimisestepsizes (1632): Decreased step3 to 9.4e+00 (rej. rate = 8.000e-01)
+ (2) Info - optimisestepsizes (1632): Increased step4 to 6.3e-01 (rej. rate = 7.128e-01)
+ (2) Info - optimisestepsizes (1696): Increased step1 to 4.0e+00 (rej. rate = 7.253e-01)
+ (1) Info - optimisestepsizes (1696): Increased step2 to 3.3e+00 (rej. rate = 7.416e-01)
+ (1) Info - optimisestepsizes (1696): Decreased step3 to 9.7e+00 (rej. rate = 7.822e-01)
+ (1) Info - optimisestepsizes (1696): Increased step4 to 7.0e-01 (rej. rate = 7.577e-01)
+ (1) Info - optimisestepsizes (1760): Decreased step1 to 4.8e+00 (rej. rate = 7.850e-01)
+ (5) Info - optimisestepsizes (1696): Increased step2 to 3.4e+00 (rej. rate = 7.250e-01)
+ (5) Info - optimisestepsizes (1696): Increased step3 to 9.5e+00 (rej. rate = 7.725e-01)
+ (5) Info - optimisestepsizes (1696): Increased step4 to 7.3e-01 (rej. rate = 7.288e-01)
+ (5) Info - optimisestepsizes (1760): Increased step1 to 4.4e+00 (rej. rate = 7.456e-01)
+ (4) Info - optimisestepsizes (1696): Increased step2 to 3.3e+00 (rej. rate = 7.156e-01)
+ (4) Info - optimisestepsizes (1696): Decreased step3 to 9.4e+00 (rej. rate = 7.853e-01)
+ (4) Info - optimisestepsizes (1696): Increased step4 to 7.0e-01 (rej. rate = 7.418e-01)
+ (4) Info - optimisestepsizes (1760): Increased step1 to 4.7e+00 (rej. rate = 7.231e-01)
+ (3) Info - optimisestepsizes (1696): Decreased step2 to 3.6e+00 (rej. rate = 8.094e-01)
+ (3) Info - optimisestepsizes (1696): Decreased step3 to 9.4e+00 (rej. rate = 8.019e-01)
+ (3) Info - optimisestepsizes (1696): Decreased step4 to 7.6e-01 (rej. rate = 7.855e-01)
+ (3) Info - optimisestepsizes (1760): Increased step1 to 4.5e+00 (rej. rate = 7.216e-01)
+ (2) Info - optimisestepsizes (1696): Decreased step2 to 3.6e+00 (rej. rate = 8.363e-01)
+ (2) Info - optimisestepsizes (1696): Increased step3 to 9.4e+00 (rej. rate = 7.706e-01)
+ (2) Info - optimisestepsizes (1696): Decreased step4 to 6.3e-01 (rej. rate = 7.972e-01)
+ (2) Info - optimisestepsizes (1760): Increased step1 to 4.0e+00 (rej. rate = 7.544e-01)
+ (1) Info - optimisestepsizes (1760): Decreased step2 to 3.3e+00 (rej. rate = 8.456e-01)
+ (1) Info - optimisestepsizes (1760): Decreased step3 to 9.7e+00 (rej. rate = 8.050e-01)
+ (1) Info - optimisestepsizes (1760): Decreased step4 to 7.0e-01 (rej. rate = 8.066e-01)
+ (1) Info - optimisestepsizes (1824): Increased step1 to 4.8e+00 (rej. rate = 7.725e-01)
+ (5) Info - optimisestepsizes (1760): Increased step2 to 3.4e+00 (rej. rate = 6.266e-01)
+ (5) Info - optimisestepsizes (1760): Decreased step3 to 9.5e+00 (rej. rate = 7.762e-01)
+ (5) Info - optimisestepsizes (1760): Increased step4 to 7.3e-01 (rej. rate = 6.881e-01)
+ (5) Info - optimisestepsizes (1824): Increased step1 to 4.4e+00 (rej. rate = 6.775e-01)
+ (4) Info - optimisestepsizes (1760): Decreased step2 to 3.3e+00 (rej. rate = 7.981e-01)
+ (4) Info - optimisestepsizes (1760): Increased step3 to 9.4e+00 (rej. rate = 7.587e-01)
+ (4) Info - optimisestepsizes (1760): Decreased step4 to 7.0e-01 (rej. rate = 7.904e-01)
+ (4) Info - optimisestepsizes (1824): Increased step1 to 4.7e+00 (rej. rate = 7.519e-01)
+ (3) Info - optimisestepsizes (1760): Decreased step2 to 3.6e+00 (rej. rate = 7.869e-01)
+ (3) Info - optimisestepsizes (1760): Increased step3 to 9.4e+00 (rej. rate = 7.522e-01)
+ (3) Info - optimisestepsizes (1760): Increased step4 to 7.6e-01 (rej. rate = 7.704e-01)
+ (3) Info - optimisestepsizes (1824): Decreased step1 to 4.5e+00 (rej. rate = 7.847e-01)
+ (2) Info - optimisestepsizes (1760): Increased step2 to 3.6e+00 (rej. rate = 7.678e-01)
+ (2) Info - optimisestepsizes (1760): Increased step3 to 9.4e+00 (rej. rate = 7.403e-01)
+ (2) Info - optimisestepsizes (1760): Increased step4 to 6.3e-01 (rej. rate = 7.529e-01)
+ (2) Info - optimisestepsizes (1824): Increased step1 to 4.0e+00 (rej. rate = 7.312e-01)
+ (1) Info - optimisestepsizes (1824): Decreased step2 to 3.3e+00 (rej. rate = 7.878e-01)
+ (1) Info - optimisestepsizes (1824): Decreased step3 to 9.7e+00 (rej. rate = 8.184e-01)
+ (1) Info - optimisestepsizes (1824): Decreased step4 to 7.0e-01 (rej. rate = 7.850e-01)
+ (1) Info - optimisestepsizes (1888): Increased step1 to 4.8e+00 (rej. rate = 7.734e-01)
+ (5) Info - optimisestepsizes (1824): Increased step2 to 3.4e+00 (rej. rate = 7.509e-01)
+ (5) Info - optimisestepsizes (1824): Increased step3 to 9.5e+00 (rej. rate = 7.591e-01)
+ (5) Info - optimisestepsizes (1824): Increased step4 to 7.3e-01 (rej. rate = 7.430e-01)
+ (5) Info - optimisestepsizes (1888): Increased step1 to 4.4e+00 (rej. rate = 7.531e-01)
+ (4) Info - optimisestepsizes (1824): Increased step2 to 3.3e+00 (rej. rate = 7.353e-01)
+ (4) Info - optimisestepsizes (1824): Decreased step3 to 9.4e+00 (rej. rate = 7.866e-01)
+ (4) Info - optimisestepsizes (1824): Increased step4 to 7.0e-01 (rej. rate = 7.505e-01)
+ (4) Info - optimisestepsizes (1888): Decreased step1 to 4.7e+00 (rej. rate = 7.825e-01)
+ (3) Info - optimisestepsizes (1824): Decreased step2 to 3.6e+00 (rej. rate = 8.391e-01)
+ (3) Info - optimisestepsizes (1824): Decreased step3 to 9.4e+00 (rej. rate = 7.797e-01)
+ (3) Info - optimisestepsizes (1824): Decreased step4 to 7.6e-01 (rej. rate = 8.235e-01)
+ (3) Info - optimisestepsizes (1888): Increased step1 to 4.5e+00 (rej. rate = 7.325e-01)
+ (2) Info - optimisestepsizes (1824): Increased step2 to 3.6e+00 (rej. rate = 7.575e-01)
+ (2) Info - optimisestepsizes (1824): Decreased step3 to 9.4e+00 (rej. rate = 7.828e-01)
+ (2) Info - optimisestepsizes (1824): Increased step4 to 6.3e-01 (rej. rate = 7.088e-01)
+ (2) Info - optimisestepsizes (1888): Increased step1 to 4.0e+00 (rej. rate = 6.600e-01)
+ (1) Info - optimisestepsizes (1888): Increased step2 to 3.3e+00 (rej. rate = 7.619e-01)
+ (1) Info - optimisestepsizes (1888): Increased step3 to 9.7e+00 (rej. rate = 7.741e-01)
+ (1) Info - optimisestepsizes (1888): Increased step4 to 7.0e-01 (rej. rate = 7.581e-01)
+ (1) Info - optimisestepsizes (1952): Decreased step1 to 4.8e+00 (rej. rate = 7.853e-01)
+ (5) Info - optimisestepsizes (1888): Increased step2 to 3.4e+00 (rej. rate = 7.109e-01)
+ (5) Info - optimisestepsizes (1888): Decreased step3 to 9.5e+00 (rej. rate = 7.897e-01)
+ (5) Info - optimisestepsizes (1888): Increased step4 to 7.3e-01 (rej. rate = 7.307e-01)
+ (5) Info - optimisestepsizes (1952): Increased step1 to 4.4e+00 (rej. rate = 7.712e-01)
+ (4) Info - optimisestepsizes (1888): Increased step2 to 3.3e+00 (rej. rate = 7.294e-01)
+ (4) Info - optimisestepsizes (1888): Increased step3 to 9.4e+00 (rej. rate = 7.625e-01)
+ (4) Info - optimisestepsizes (1888): Increased step4 to 7.0e-01 (rej. rate = 7.597e-01)
+ (4) Info - optimisestepsizes (1952): Increased step1 to 4.7e+00 (rej. rate = 7.169e-01)
+ (3) Info - optimisestepsizes (1888): Decreased step2 to 3.6e+00 (rej. rate = 8.444e-01)
+ (3) Info - optimisestepsizes (1888): Increased step3 to 9.4e+00 (rej. rate = 7.662e-01)
+ (3) Info - optimisestepsizes (1888): Decreased step4 to 7.6e-01 (rej. rate = 8.254e-01)
+ (3) Info - optimisestepsizes (1952): Increased step1 to 4.5e+00 (rej. rate = 7.700e-01)
+ (2) Info - optimisestepsizes (1888): Increased step2 to 3.6e+00 (rej. rate = 7.297e-01)
+ (2) Info - optimisestepsizes (1888): Increased step3 to 9.4e+00 (rej. rate = 7.575e-01)
+ (2) Info - optimisestepsizes (1888): Increased step4 to 6.3e-01 (rej. rate = 6.882e-01)
+ (2) Info - optimisestepsizes (1952): Decreased step1 to 4.0e+00 (rej. rate = 7.856e-01)
+ (1) Info - optimisestepsizes (1952): Increased step2 to 3.3e+00 (rej. rate = 7.319e-01)
+ (1) Info - optimisestepsizes (1952): Increased step3 to 9.7e+00 (rej. rate = 7.709e-01)
+ (1) Info - optimisestepsizes (1952): Increased step4 to 7.0e-01 (rej. rate = 7.445e-01)
+ (1)...current output at MCit=2000 (2636.443 sec)(logtarget_curr = -1.36089602e+03):
+ (5) Info - optimisestepsizes (1952): Increased step2 to 3.4e+00 (rej. rate = 6.359e-01)
+ (5) Info - optimisestepsizes (1952): Decreased step3 to 9.5e+00 (rej. rate = 7.897e-01)
+ (5) Info - optimisestepsizes (1952): Increased step4 to 7.3e-01 (rej. rate = 7.071e-01)
+ (5)...current output at MCit=2000 (2642.820 sec)(logtarget_curr = -1.30422465e+03):
+ (4) Info - optimisestepsizes (1952): Decreased step2 to 3.3e+00 (rej. rate = 9.334e-01)
+ (4) Info - optimisestepsizes (1952): Increased step3 to 9.4e+00 (rej. rate = 7.587e-01)
+ (4) Info - optimisestepsizes (1952): Decreased step4 to 7.0e-01 (rej. rate = 9.115e-01)
+ (4)...current output at MCit=2000 (2646.051 sec)(logtarget_curr = -1.33947437e+03):
+ (3) Info - optimisestepsizes (1952): Increased step2 to 3.6e+00 (rej. rate = 7.587e-01)
+ (3) Info - optimisestepsizes (1952): Decreased step3 to 9.4e+00 (rej. rate = 7.969e-01)
+ (3) Info - optimisestepsizes (1952): Increased step4 to 7.6e-01 (rej. rate = 7.726e-01)
+ (3)...current output at MCit=2000 (2648.863 sec)(logtarget_curr = -1.38845648e+03):
+ (1) ...state 1:	(50 measurements, [ 100.00% ])
+ (1)  l12 = 4.587e+01	l13 = 8.343e+01	
+ (1)  l23 = 4.089e+01	
+ (1)  merr1 = [ 5.21e+00 1.82e+01 ]	merr2 = [ 9.81e+00 1.08e+01 ]	merr3 = [ 1.62e+01 5.08e+01 ]	
+ (1) rejection rates: [ 0.8058 0.8521 0.7804 0.8334 ]
+ (1) Info - optimisestepsizes (2016): Decreased step1 to 4.8e+00 (rej. rate = 8.128e-01)
+ (2) Info - optimisestepsizes (1952): Increased step2 to 3.6e+00 (rej. rate = 7.394e-01)
+ (2) Info - optimisestepsizes (1952): Increased step3 to 9.4e+00 (rej. rate = 7.634e-01)
+ (2) Info - optimisestepsizes (1952): Increased step4 to 6.3e-01 (rej. rate = 7.240e-01)
+ (2)...current output at MCit=2000 (2656.869 sec)(logtarget_curr = -1.37991276e+03):
+ (5) ...state 1:	(50 measurements, [ 100.00% ])
+ (5)  l12 = 4.252e+01	l13 = 8.123e+01	
+ (5)  l23 = 4.646e+01	
+ (5)  merr1 = [ 1.29e+01 3.37e+00 ]	merr2 = [ 3.69e+00 1.91e+01 ]	merr3 = [ 1.83e+01 3.22e+01 ]	
+ (5) rejection rates: [ 0.7987 0.7604 0.7450 0.7560 ]
+ (5) Info - optimisestepsizes (2016): Decreased step1 to 4.4e+00 (rej. rate = 7.984e-01)
+ (4) ...state 1:	(50 measurements, [ 100.00% ])
+ (4)  l12 = 4.885e+01	l13 = 8.770e+01	
+ (4)  l23 = 4.398e+01	
+ (4)  merr1 = [ 4.71e+00 1.10e+01 ]	merr2 = [ 9.74e+00 1.70e+01 ]	merr3 = [ 1.68e+01 3.97e+01 ]	
+ (4) rejection rates: [ 0.8804 0.8204 0.7925 0.8521 ]
+ (4) Info - optimisestepsizes (2016): Decreased step1 to 4.7e+00 (rej. rate = 8.550e-01)
+ (3) ...state 1:	(50 measurements, [ 100.00% ])
+ (3)  l12 = 2.944e+01	l13 = 7.275e+01	
+ (3)  l23 = 4.768e+01	
+ (3)  merr1 = [ 2.11e+01 2.31e+01 ]	merr2 = [ 1.82e+00 2.98e+01 ]	merr3 = [ 1.56e+01 3.57e+01 ]	
+ (3) rejection rates: [ 0.7308 0.7387 0.7812 0.7432 ]
+ (3) Info - optimisestepsizes (2016): Increased step1 to 4.5e+00 (rej. rate = 6.856e-01)
+ (2) ...state 1:	(50 measurements, [ 100.00% ])
+ (2)  l12 = 3.659e+01	l13 = 7.927e+01	
+ (2)  l23 = 5.039e+01	
+ (2)  merr1 = [ 1.69e+01 1.40e+01 ]	merr2 = [ 4.46e+00 2.22e+01 ]	merr3 = [ 1.44e+01 3.15e+01 ]	
+ (2) rejection rates: [ 0.7233 0.6962 0.7696 0.6635 ]
+ (2) Info - optimisestepsizes (2016): Increased step1 to 4.0e+00 (rej. rate = 7.203e-01)
+ (1) Info - optimisestepsizes (2016): Decreased step2 to 3.3e+00 (rej. rate = 7.956e-01)
+ (1) Info - optimisestepsizes (2016): Increased step3 to 9.7e+00 (rej. rate = 7.725e-01)
+ (1) Info - optimisestepsizes (2016): Decreased step4 to 7.0e-01 (rej. rate = 7.938e-01)
+ (1) Info - optimisestepsizes (2080): Increased step1 to 4.8e+00 (rej. rate = 7.594e-01)
+ (5) Info - optimisestepsizes (2016): Decreased step2 to 3.4e+00 (rej. rate = 7.778e-01)
+ (5) Info - optimisestepsizes (2016): Increased step3 to 9.5e+00 (rej. rate = 7.594e-01)
+ (5) Info - optimisestepsizes (2016): Increased step4 to 7.3e-01 (rej. rate = 7.699e-01)
+ (5) Info - optimisestepsizes (2080): Increased step1 to 4.4e+00 (rej. rate = 7.378e-01)
+ (4) Info - optimisestepsizes (2016): Decreased step2 to 3.3e+00 (rej. rate = 7.891e-01)
+ (4) Info - optimisestepsizes (2016): Decreased step3 to 9.4e+00 (rej. rate = 7.841e-01)
+ (4) Info - optimisestepsizes (2016): Decreased step4 to 7.0e-01 (rej. rate = 8.191e-01)
+ (4) Info - optimisestepsizes (2080): Decreased step1 to 4.7e+00 (rej. rate = 8.162e-01)
+ (3) Info - optimisestepsizes (2016): Increased step2 to 3.6e+00 (rej. rate = 7.484e-01)
+ (3) Info - optimisestepsizes (2016): Decreased step3 to 9.4e+00 (rej. rate = 7.884e-01)
+ (3) Info - optimisestepsizes (2016): Increased step4 to 7.6e-01 (rej. rate = 7.473e-01)
+ (3) Info - optimisestepsizes (2080): Decreased step1 to 4.5e+00 (rej. rate = 8.094e-01)
+ (2) Info - optimisestepsizes (2016): Increased step2 to 3.6e+00 (rej. rate = 6.997e-01)
+ (2) Info - optimisestepsizes (2016): Decreased step3 to 9.4e+00 (rej. rate = 7.778e-01)
+ (2) Info - optimisestepsizes (2016): Increased step4 to 6.3e-01 (rej. rate = 6.620e-01)
+ (2) Info - optimisestepsizes (2080): Increased step1 to 4.0e+00 (rej. rate = 7.687e-01)
+ (1) Info - optimisestepsizes (2080): Decreased step2 to 3.3e+00 (rej. rate = 7.778e-01)
+ (1) Info - optimisestepsizes (2080): Decreased step3 to 9.7e+00 (rej. rate = 8.047e-01)
+ (1) Info - optimisestepsizes (2080): Decreased step4 to 7.0e-01 (rej. rate = 7.885e-01)
+ (1) Info - optimisestepsizes (2144): Increased step1 to 4.8e+00 (rej. rate = 6.881e-01)
+ (5) Info - optimisestepsizes (2080): Increased step2 to 3.4e+00 (rej. rate = 7.425e-01)
+ (5) Info - optimisestepsizes (2080): Increased step3 to 9.5e+00 (rej. rate = 7.566e-01)
+ (5) Info - optimisestepsizes (2080): Increased step4 to 7.3e-01 (rej. rate = 7.414e-01)
+ (5) Info - optimisestepsizes (2144): Decreased step1 to 4.4e+00 (rej. rate = 8.009e-01)
+ (4) Info - optimisestepsizes (2080): Increased step2 to 3.3e+00 (rej. rate = 7.231e-01)
+ (4) Info - optimisestepsizes (2080): Decreased step3 to 9.4e+00 (rej. rate = 7.850e-01)
+ (4) Info - optimisestepsizes (2080): Increased step4 to 7.0e-01 (rej. rate = 7.357e-01)
+ (4) Info - optimisestepsizes (2144): Increased step1 to 4.7e+00 (rej. rate = 7.284e-01)
+ (3) Info - optimisestepsizes (2080): Increased step2 to 3.6e+00 (rej. rate = 7.506e-01)
+ (3) Info - optimisestepsizes (2080): Increased step3 to 9.4e+00 (rej. rate = 7.366e-01)
+ (3) Info - optimisestepsizes (2080): Decreased step4 to 7.6e-01 (rej. rate = 8.190e-01)
+ (3) Info - optimisestepsizes (2144): Increased step1 to 4.5e+00 (rej. rate = 7.572e-01)
+ (2) Info - optimisestepsizes (2080): Increased step2 to 3.6e+00 (rej. rate = 6.862e-01)
+ (2) Info - optimisestepsizes (2080): Decreased step3 to 9.4e+00 (rej. rate = 7.759e-01)
+ (2) Info - optimisestepsizes (2080): Increased step4 to 6.3e-01 (rej. rate = 6.694e-01)
+ (2) Info - optimisestepsizes (2144): Increased step1 to 4.0e+00 (rej. rate = 6.769e-01)
+ (1) Info - optimisestepsizes (2144): Decreased step2 to 3.3e+00 (rej. rate = 8.119e-01)
+ (1) Info - optimisestepsizes (2144): Decreased step3 to 9.7e+00 (rej. rate = 7.906e-01)
+ (1) Info - optimisestepsizes (2144): Decreased step4 to 7.0e-01 (rej. rate = 7.974e-01)
+ (1) Info - optimisestepsizes (2208): Increased step1 to 4.8e+00 (rej. rate = 7.616e-01)
+ (5) Info - optimisestepsizes (2144): Increased step2 to 3.4e+00 (rej. rate = 7.662e-01)
+ (5) Info - optimisestepsizes (2144): Decreased step3 to 9.5e+00 (rej. rate = 7.956e-01)
+ (5) Info - optimisestepsizes (2144): Decreased step4 to 7.3e-01 (rej. rate = 7.824e-01)
+ (5) Info - optimisestepsizes (2208): Decreased step1 to 4.4e+00 (rej. rate = 7.875e-01)
+ (4) Info - optimisestepsizes (2144): Increased step2 to 3.3e+00 (rej. rate = 7.609e-01)
+ (4) Info - optimisestepsizes (2144): Decreased step3 to 9.4e+00 (rej. rate = 7.959e-01)
+ (4) Info - optimisestepsizes (2144): Increased step4 to 7.0e-01 (rej. rate = 7.549e-01)
+ (4) Info - optimisestepsizes (2208): Increased step1 to 4.7e+00 (rej. rate = 7.516e-01)
+ (3) Info - optimisestepsizes (2144): Increased step2 to 3.6e+00 (rej. rate = 7.675e-01)
+ (3) Info - optimisestepsizes (2144): Decreased step3 to 9.4e+00 (rej. rate = 8.191e-01)
+ (3) Info - optimisestepsizes (2144): Decreased step4 to 7.6e-01 (rej. rate = 7.904e-01)
+ (3) Info - optimisestepsizes (2208): Decreased step1 to 4.5e+00 (rej. rate = 8.094e-01)
+ (2) Info - optimisestepsizes (2144): Decreased step2 to 3.6e+00 (rej. rate = 8.072e-01)
+ (2) Info - optimisestepsizes (2144): Increased step3 to 9.4e+00 (rej. rate = 7.628e-01)
+ (2) Info - optimisestepsizes (2144): Increased step4 to 6.3e-01 (rej. rate = 7.431e-01)
+ (2) Info - optimisestepsizes (2208): Increased step1 to 4.0e+00 (rej. rate = 6.797e-01)
+ (1) Info - optimisestepsizes (2208): Decreased step2 to 3.3e+00 (rej. rate = 8.125e-01)
+ (1) Info - optimisestepsizes (2208): Increased step3 to 9.7e+00 (rej. rate = 7.266e-01)
+ (1) Info - optimisestepsizes (2208): Decreased step4 to 7.0e-01 (rej. rate = 8.529e-01)
+ (1) Info - optimisestepsizes (2272): Decreased step1 to 4.8e+00 (rej. rate = 8.147e-01)
+ (5) Info - optimisestepsizes (2208): Increased step2 to 3.4e+00 (rej. rate = 7.150e-01)
+ (5) Info - optimisestepsizes (2208): Increased step3 to 9.5e+00 (rej. rate = 7.612e-01)
+ (5) Info - optimisestepsizes (2208): Increased step4 to 7.3e-01 (rej. rate = 7.508e-01)
+ (5) Info - optimisestepsizes (2272): Increased step1 to 4.4e+00 (rej. rate = 6.731e-01)
+ (4) Info - optimisestepsizes (2208): Increased step2 to 3.3e+00 (rej. rate = 6.337e-01)
+ (4) Info - optimisestepsizes (2208): Decreased step3 to 9.4e+00 (rej. rate = 7.875e-01)
+ (4) Info - optimisestepsizes (2208): Increased step4 to 7.0e-01 (rej. rate = 6.853e-01)
+ (4) Info - optimisestepsizes (2272): Decreased step1 to 4.7e+00 (rej. rate = 8.009e-01)
+ (3) Info - optimisestepsizes (2208): Decreased step2 to 3.6e+00 (rej. rate = 8.625e-01)
+ (3) Info - optimisestepsizes (2208): Increased step3 to 9.4e+00 (rej. rate = 7.434e-01)
+ (3) Info - optimisestepsizes (2208): Decreased step4 to 7.6e-01 (rej. rate = 8.584e-01)
+ (3) Info - optimisestepsizes (2272): Increased step1 to 4.5e+00 (rej. rate = 7.528e-01)
+ (2) Info - optimisestepsizes (2208): Decreased step2 to 3.6e+00 (rej. rate = 8.653e-01)
+ (2) Info - optimisestepsizes (2208): Decreased step3 to 9.4e+00 (rej. rate = 7.759e-01)
+ (2) Info - optimisestepsizes (2208): Decreased step4 to 6.3e-01 (rej. rate = 8.258e-01)
+ (2) Info - optimisestepsizes (2272): Increased step1 to 4.0e+00 (rej. rate = 7.494e-01)
+ (1) Info - optimisestepsizes (2272): Increased step2 to 3.3e+00 (rej. rate = 7.403e-01)
+ (1) Info - optimisestepsizes (2272): Decreased step3 to 9.7e+00 (rej. rate = 8.156e-01)
+ (1) Info - optimisestepsizes (2272): Increased step4 to 7.0e-01 (rej. rate = 7.606e-01)
+ (1) Info - optimisestepsizes (2336): Decreased step1 to 4.8e+00 (rej. rate = 7.947e-01)
+ (5) Info - optimisestepsizes (2272): Decreased step2 to 3.4e+00 (rej. rate = 8.200e-01)
+ (5) Info - optimisestepsizes (2272): Increased step3 to 9.5e+00 (rej. rate = 7.700e-01)
+ (5) Info - optimisestepsizes (2272): Decreased step4 to 7.3e-01 (rej. rate = 8.131e-01)
+ (5) Info - optimisestepsizes (2336): Increased step1 to 4.4e+00 (rej. rate = 7.481e-01)
+ (4) Info - optimisestepsizes (2272): Increased step2 to 3.3e+00 (rej. rate = 6.525e-01)
+ (4) Info - optimisestepsizes (2272): Increased step3 to 9.4e+00 (rej. rate = 7.625e-01)
+ (4) Info - optimisestepsizes (2272): Increased step4 to 7.0e-01 (rej. rate = 6.914e-01)
+ (4) Info - optimisestepsizes (2336): Increased step1 to 4.7e+00 (rej. rate = 7.259e-01)
+ (3) Info - optimisestepsizes (2272): Decreased step2 to 3.6e+00 (rej. rate = 7.866e-01)
+ (3) Info - optimisestepsizes (2272): Decreased step3 to 9.4e+00 (rej. rate = 8.028e-01)
+ (3) Info - optimisestepsizes (2272): Decreased step4 to 7.6e-01 (rej. rate = 7.861e-01)
+ (3) Info - optimisestepsizes (2336): Decreased step1 to 4.5e+00 (rej. rate = 7.819e-01)
+ (2) Info - optimisestepsizes (2272): Increased step2 to 3.6e+00 (rej. rate = 7.303e-01)
+ (2) Info - optimisestepsizes (2272): Decreased step3 to 9.4e+00 (rej. rate = 8.175e-01)
+ (2) Info - optimisestepsizes (2272): Increased step4 to 6.3e-01 (rej. rate = 7.041e-01)
+ (2) Info - optimisestepsizes (2336): Increased step1 to 4.0e+00 (rej. rate = 7.719e-01)
+ (1) Info - optimisestepsizes (2336): Decreased step2 to 3.3e+00 (rej. rate = 7.822e-01)
+ (1) Info - optimisestepsizes (2336): Decreased step3 to 9.7e+00 (rej. rate = 7.791e-01)
+ (1) Info - optimisestepsizes (2336): Decreased step4 to 7.0e-01 (rej. rate = 7.878e-01)
+ (1) Info - optimisestepsizes (2400): Decreased step1 to 4.8e+00 (rej. rate = 8.328e-01)
+ (4) Info - optimisestepsizes (2336): Decreased step2 to 3.3e+00 (rej. rate = 8.047e-01)
+ (4) Info - optimisestepsizes (2336): Increased step3 to 9.4e+00 (rej. rate = 7.262e-01)
+ (4) Info - optimisestepsizes (2336): Decreased step4 to 7.0e-01 (rej. rate = 7.995e-01)
+ (4) Info - optimisestepsizes (2400): Decreased step1 to 4.7e+00 (rej. rate = 8.353e-01)
+ (5) Info - optimisestepsizes (2336): Decreased step2 to 3.4e+00 (rej. rate = 8.072e-01)
+ (5) Info - optimisestepsizes (2336): Decreased step3 to 9.5e+00 (rej. rate = 7.812e-01)
+ (5) Info - optimisestepsizes (2336): Decreased step4 to 7.3e-01 (rej. rate = 7.888e-01)
+ (5) Info - optimisestepsizes (2400): Increased step1 to 4.4e+00 (rej. rate = 7.659e-01)
+ (3) Info - optimisestepsizes (2336): Increased step2 to 3.6e+00 (rej. rate = 7.131e-01)
+ (3) Info - optimisestepsizes (2336): Increased step3 to 9.4e+00 (rej. rate = 7.341e-01)
+ (3) Info - optimisestepsizes (2336): Increased step4 to 7.6e-01 (rej. rate = 7.259e-01)
+ (3) Info - optimisestepsizes (2400): Increased step1 to 4.5e+00 (rej. rate = 7.616e-01)
+ (2) Info - optimisestepsizes (2336): Decreased step2 to 3.6e+00 (rej. rate = 9.388e-01)
+ (2) Info - optimisestepsizes (2336): Decreased step3 to 9.4e+00 (rej. rate = 7.897e-01)
+ (2) Info - optimisestepsizes (2336): Decreased step4 to 6.3e-01 (rej. rate = 9.144e-01)
+ (2) Info - optimisestepsizes (2400): Increased step1 to 4.0e+00 (rej. rate = 6.841e-01)
+ (1) Info - optimisestepsizes (2400): Increased step2 to 3.3e+00 (rej. rate = 6.828e-01)
+ (1) Info - optimisestepsizes (2400): Decreased step3 to 9.7e+00 (rej. rate = 8.197e-01)
+ (1) Info - optimisestepsizes (2400): Increased step4 to 7.0e-01 (rej. rate = 7.498e-01)
+ (1) Info - optimisestepsizes (2464): Decreased step1 to 4.8e+00 (rej. rate = 8.556e-01)
+ (4) Info - optimisestepsizes (2400): Increased step2 to 3.3e+00 (rej. rate = 7.494e-01)
+ (4) Info - optimisestepsizes (2400): Increased step3 to 9.4e+00 (rej. rate = 7.550e-01)
+ (4) Info - optimisestepsizes (2400): Increased step4 to 7.0e-01 (rej. rate = 7.507e-01)
+ (4) Info - optimisestepsizes (2464): Decreased step1 to 4.7e+00 (rej. rate = 8.000e-01)
+ (5) Info - optimisestepsizes (2400): Increased step2 to 3.4e+00 (rej. rate = 6.909e-01)
+ (5) Info - optimisestepsizes (2400): Increased step3 to 9.5e+00 (rej. rate = 7.622e-01)
+ (5) Info - optimisestepsizes (2400): Increased step4 to 7.3e-01 (rej. rate = 7.280e-01)
+ (5) Info - optimisestepsizes (2464): Decreased step1 to 4.4e+00 (rej. rate = 8.441e-01)
+ (3) Info - optimisestepsizes (2400): Increased step2 to 3.6e+00 (rej. rate = 7.431e-01)
+ (3) Info - optimisestepsizes (2400): Decreased step3 to 9.4e+00 (rej. rate = 7.987e-01)
+ (3) Info - optimisestepsizes (2400): Increased step4 to 7.6e-01 (rej. rate = 7.632e-01)
+ (3) Info - optimisestepsizes (2464): Decreased step1 to 4.5e+00 (rej. rate = 8.156e-01)
+ (2) Info - optimisestepsizes (2400): Increased step2 to 3.6e+00 (rej. rate = 7.709e-01)
+ (2) Info - optimisestepsizes (2400): Increased step3 to 9.4e+00 (rej. rate = 7.656e-01)
+ (2) Info - optimisestepsizes (2400): Increased step4 to 6.3e-01 (rej. rate = 7.187e-01)
+ (2) Info - optimisestepsizes (2464): Increased step1 to 4.0e+00 (rej. rate = 7.697e-01)
+ (1) Info - optimisestepsizes (2464): Increased step2 to 3.3e+00 (rej. rate = 6.987e-01)
+ (1) Info - optimisestepsizes (2464): Decreased step3 to 9.7e+00 (rej. rate = 8.166e-01)
+ (1) Info - optimisestepsizes (2464): Increased step4 to 7.0e-01 (rej. rate = 7.538e-01)
+ (1) Info - optimisestepsizes (2528): Decreased step1 to 4.8e+00 (rej. rate = 8.725e-01)
+ (4) Info - optimisestepsizes (2464): Decreased step2 to 3.3e+00 (rej. rate = 9.169e-01)
+ (4) Info - optimisestepsizes (2464): Increased step3 to 9.4e+00 (rej. rate = 7.281e-01)
+ (4) Info - optimisestepsizes (2464): Decreased step4 to 7.0e-01 (rej. rate = 8.947e-01)
+ (4) Info - optimisestepsizes (2528): Increased step1 to 4.7e+00 (rej. rate = 7.656e-01)
+ (5) Info - optimisestepsizes (2464): Decreased step2 to 3.4e+00 (rej. rate = 8.497e-01)
+ (5) Info - optimisestepsizes (2464): Increased step3 to 9.5e+00 (rej. rate = 7.494e-01)
+ (5) Info - optimisestepsizes (2464): Decreased step4 to 7.3e-01 (rej. rate = 8.554e-01)
+ (5) Info - optimisestepsizes (2528): Decreased step1 to 4.4e+00 (rej. rate = 7.937e-01)
+ (3) Info - optimisestepsizes (2464): Increased step2 to 3.6e+00 (rej. rate = 7.750e-01)
+ (3) Info - optimisestepsizes (2464): Increased step3 to 9.4e+00 (rej. rate = 7.447e-01)
+ (3) Info - optimisestepsizes (2464): Decreased step4 to 7.6e-01 (rej. rate = 7.812e-01)
+ (3) Info - optimisestepsizes (2528): Decreased step1 to 4.5e+00 (rej. rate = 8.872e-01)
+ (2) Info - optimisestepsizes (2464): Increased step2 to 3.6e+00 (rej. rate = 7.609e-01)
+ (2) Info - optimisestepsizes (2464): Increased step3 to 9.4e+00 (rej. rate = 7.284e-01)
+ (2) Info - optimisestepsizes (2464): Increased step4 to 6.3e-01 (rej. rate = 7.199e-01)
+ (2) Info - optimisestepsizes (2528): Decreased step1 to 4.0e+00 (rej. rate = 7.969e-01)
+ (1) Info - optimisestepsizes (2528): Increased step2 to 3.3e+00 (rej. rate = 6.616e-01)
+ (1) Info - optimisestepsizes (2528): Increased step3 to 9.7e+00 (rej. rate = 7.712e-01)
+ (1) Info - optimisestepsizes (2528): Increased step4 to 7.0e-01 (rej. rate = 7.235e-01)
+ (1) Info - optimisestepsizes (2592): Decreased step1 to 4.8e+00 (rej. rate = 7.872e-01)
+ (4) Info - optimisestepsizes (2528): Increased step2 to 3.3e+00 (rej. rate = 7.684e-01)
+ (4) Info - optimisestepsizes (2528): Increased step3 to 9.4e+00 (rej. rate = 7.597e-01)
+ (4) Info - optimisestepsizes (2528): Increased step4 to 7.0e-01 (rej. rate = 7.549e-01)
+ (4) Info - optimisestepsizes (2592): Decreased step1 to 4.7e+00 (rej. rate = 8.191e-01)
+ (5) Info - optimisestepsizes (2528): Increased step2 to 3.4e+00 (rej. rate = 6.903e-01)
+ (5) Info - optimisestepsizes (2528): Decreased step3 to 9.5e+00 (rej. rate = 7.806e-01)
+ (5) Info - optimisestepsizes (2528): Increased step4 to 7.3e-01 (rej. rate = 7.426e-01)
+ (5) Info - optimisestepsizes (2592): Increased step1 to 4.4e+00 (rej. rate = 7.384e-01)
+ (3) Info - optimisestepsizes (2528): Decreased step2 to 3.6e+00 (rej. rate = 7.794e-01)
+ (3) Info - optimisestepsizes (2528): Increased step3 to 9.4e+00 (rej. rate = 7.750e-01)
+ (3) Info - optimisestepsizes (2528): Decreased step4 to 7.6e-01 (rej. rate = 7.881e-01)
+ (3) Info - optimisestepsizes (2592): Increased step1 to 4.5e+00 (rej. rate = 7.241e-01)
+ (2) Info - optimisestepsizes (2528): Increased step2 to 3.6e+00 (rej. rate = 7.344e-01)
+ (2) Info - optimisestepsizes (2528): Decreased step3 to 9.4e+00 (rej. rate = 7.812e-01)
+ (2) Info - optimisestepsizes (2528): Increased step4 to 6.3e-01 (rej. rate = 7.048e-01)
+ (2) Info - optimisestepsizes (2592): Increased step1 to 4.0e+00 (rej. rate = 6.656e-01)
+ (1) Info - optimisestepsizes (2592): Increased step2 to 3.3e+00 (rej. rate = 7.503e-01)
+ (1) Info - optimisestepsizes (2592): Increased step3 to 9.7e+00 (rej. rate = 7.559e-01)
+ (1) Info - optimisestepsizes (2592): Increased step4 to 7.0e-01 (rej. rate = 7.670e-01)
+ (1) Info - optimisestepsizes (2656): Decreased step1 to 4.8e+00 (rej. rate = 7.881e-01)
+ (4) Info - optimisestepsizes (2592): Increased step2 to 3.3e+00 (rej. rate = 7.353e-01)
+ (4) Info - optimisestepsizes (2592): Increased step3 to 9.4e+00 (rej. rate = 7.416e-01)
+ (4) Info - optimisestepsizes (2592): Increased step4 to 7.0e-01 (rej. rate = 7.425e-01)
+ (4) Info - optimisestepsizes (2656): Decreased step1 to 4.7e+00 (rej. rate = 8.009e-01)
+ (5) Info - optimisestepsizes (2592): Increased step2 to 3.4e+00 (rej. rate = 7.722e-01)
+ (5) Info - optimisestepsizes (2592): Decreased step3 to 9.5e+00 (rej. rate = 7.853e-01)
+ (5) Info - optimisestepsizes (2592): Decreased step4 to 7.3e-01 (rej. rate = 7.781e-01)
+ (5) Info - optimisestepsizes (2656): Increased step1 to 4.4e+00 (rej. rate = 7.444e-01)
+ (3) Info - optimisestepsizes (2592): Increased step2 to 3.6e+00 (rej. rate = 7.728e-01)
+ (3) Info - optimisestepsizes (2592): Decreased step3 to 9.4e+00 (rej. rate = 7.931e-01)
+ (3) Info - optimisestepsizes (2592): Increased step4 to 7.6e-01 (rej. rate = 7.622e-01)
+ (3) Info - optimisestepsizes (2656): Decreased step1 to 4.5e+00 (rej. rate = 8.450e-01)
+ (2) Info - optimisestepsizes (2592): Increased step2 to 3.6e+00 (rej. rate = 7.478e-01)
+ (2) Info - optimisestepsizes (2592): Increased step3 to 9.4e+00 (rej. rate = 7.319e-01)
+ (2) Info - optimisestepsizes (2592): Increased step4 to 6.3e-01 (rej. rate = 6.918e-01)
+ (2) Info - optimisestepsizes (2656): Increased step1 to 4.0e+00 (rej. rate = 6.841e-01)
+ (1) Info - optimisestepsizes (2656): Increased step2 to 3.3e+00 (rej. rate = 6.141e-01)
+ (1) Info - optimisestepsizes (2656): Decreased step3 to 9.7e+00 (rej. rate = 7.991e-01)
+ (1) Info - optimisestepsizes (2656): Increased step4 to 7.0e-01 (rej. rate = 6.751e-01)
+ (1) Info - optimisestepsizes (2720): Decreased step1 to 4.8e+00 (rej. rate = 8.200e-01)
+ (4) Info - optimisestepsizes (2656): Increased step2 to 3.3e+00 (rej. rate = 7.712e-01)
+ (4) Info - optimisestepsizes (2656): Increased step3 to 9.4e+00 (rej. rate = 7.397e-01)
+ (4) Info - optimisestepsizes (2656): Increased step4 to 7.0e-01 (rej. rate = 7.658e-01)
+ (4) Info - optimisestepsizes (2720): Decreased step1 to 4.7e+00 (rej. rate = 8.072e-01)
+ (5) Info - optimisestepsizes (2656): Increased step2 to 3.4e+00 (rej. rate = 6.941e-01)
+ (5) Info - optimisestepsizes (2656): Increased step3 to 9.5e+00 (rej. rate = 7.247e-01)
+ (5) Info - optimisestepsizes (2656): Increased step4 to 7.3e-01 (rej. rate = 7.263e-01)
+ (5) Info - optimisestepsizes (2720): Decreased step1 to 4.4e+00 (rej. rate = 8.525e-01)
+ (3) Info - optimisestepsizes (2656): Increased step2 to 3.6e+00 (rej. rate = 7.294e-01)
+ (3) Info - optimisestepsizes (2656): Increased step3 to 9.4e+00 (rej. rate = 7.656e-01)
+ (3) Info - optimisestepsizes (2656): Decreased step4 to 7.6e-01 (rej. rate = 7.773e-01)
+ (3) Info - optimisestepsizes (2720): Increased step1 to 4.5e+00 (rej. rate = 6.984e-01)
+ (2) Info - optimisestepsizes (2656): Increased step2 to 3.6e+00 (rej. rate = 7.103e-01)
+ (2) Info - optimisestepsizes (2656): Increased step3 to 9.4e+00 (rej. rate = 7.703e-01)
+ (2) Info - optimisestepsizes (2656): Increased step4 to 6.3e-01 (rej. rate = 7.002e-01)
+ (2) Info - optimisestepsizes (2720): Increased step1 to 4.0e+00 (rej. rate = 7.512e-01)
+ (1) Info - optimisestepsizes (2720): Increased step2 to 3.3e+00 (rej. rate = 6.747e-01)
+ (1) Info - optimisestepsizes (2720): Decreased step3 to 9.7e+00 (rej. rate = 7.991e-01)
+ (1) Info - optimisestepsizes (2720): Increased step4 to 7.0e-01 (rej. rate = 7.086e-01)
+ (1) Info - optimisestepsizes (2784): Decreased step1 to 4.8e+00 (rej. rate = 8.041e-01)
+ (4) Info - optimisestepsizes (2720): Increased step2 to 3.3e+00 (rej. rate = 6.494e-01)
+ (4) Info - optimisestepsizes (2720): Decreased step3 to 9.4e+00 (rej. rate = 7.947e-01)
+ (4) Info - optimisestepsizes (2720): Increased step4 to 7.0e-01 (rej. rate = 6.956e-01)
+ (4) Info - optimisestepsizes (2784): Decreased step1 to 4.7e+00 (rej. rate = 8.016e-01)
+ (5) Info - optimisestepsizes (2720): Increased step2 to 3.4e+00 (rej. rate = 7.325e-01)
+ (5) Info - optimisestepsizes (2720): Decreased step3 to 9.5e+00 (rej. rate = 8.128e-01)
+ (5) Info - optimisestepsizes (2720): Decreased step4 to 7.3e-01 (rej. rate = 7.878e-01)
+ (5) Info - optimisestepsizes (2784): Decreased step1 to 4.4e+00 (rej. rate = 7.825e-01)
+ (3) Info - optimisestepsizes (2720): Increased step2 to 3.6e+00 (rej. rate = 7.053e-01)
+ (3) Info - optimisestepsizes (2720): Decreased step3 to 9.4e+00 (rej. rate = 8.034e-01)
+ (3) Info - optimisestepsizes (2720): Increased step4 to 7.6e-01 (rej. rate = 7.422e-01)
+ (3) Info - optimisestepsizes (2784): Increased step1 to 4.5e+00 (rej. rate = 7.656e-01)
+ (2) Info - optimisestepsizes (2720): Increased step2 to 3.6e+00 (rej. rate = 7.097e-01)
+ (2) Info - optimisestepsizes (2720): Decreased step3 to 9.4e+00 (rej. rate = 8.087e-01)
+ (2) Info - optimisestepsizes (2720): Increased step4 to 6.3e-01 (rej. rate = 6.827e-01)
+ (2) Info - optimisestepsizes (2784): Decreased step1 to 4.0e+00 (rej. rate = 7.919e-01)
+ (1) Info - optimisestepsizes (2784): Increased step2 to 3.3e+00 (rej. rate = 6.816e-01)
+ (1) Info - optimisestepsizes (2784): Increased step3 to 9.7e+00 (rej. rate = 7.522e-01)
+ (1) Info - optimisestepsizes (2784): Increased step4 to 7.0e-01 (rej. rate = 7.045e-01)
+ (1) Info - optimisestepsizes (2848): Decreased step1 to 4.8e+00 (rej. rate = 8.541e-01)
+ (4) Info - optimisestepsizes (2784): Increased step2 to 3.3e+00 (rej. rate = 7.247e-01)
+ (4) Info - optimisestepsizes (2784): Decreased step3 to 9.4e+00 (rej. rate = 7.928e-01)
+ (4) Info - optimisestepsizes (2784): Increased step4 to 7.0e-01 (rej. rate = 7.426e-01)
+ (4) Info - optimisestepsizes (2848): Increased step1 to 4.7e+00 (rej. rate = 7.728e-01)
+ (5) Info - optimisestepsizes (2784): Increased step2 to 3.4e+00 (rej. rate = 7.497e-01)
+ (5) Info - optimisestepsizes (2784): Decreased step3 to 9.5e+00 (rej. rate = 7.947e-01)
+ (5) Info - optimisestepsizes (2784): Increased step4 to 7.3e-01 (rej. rate = 7.638e-01)
+ (5) Info - optimisestepsizes (2848): Decreased step1 to 4.4e+00 (rej. rate = 7.812e-01)
+ (3) Info - optimisestepsizes (2784): Decreased step2 to 3.6e+00 (rej. rate = 8.072e-01)
+ (3) Info - optimisestepsizes (2784): Increased step3 to 9.4e+00 (rej. rate = 7.300e-01)
+ (3) Info - optimisestepsizes (2784): Decreased step4 to 7.6e-01 (rej. rate = 7.866e-01)
+ (3) Info - optimisestepsizes (2848): Increased step1 to 4.5e+00 (rej. rate = 7.603e-01)
+ (2) Info - optimisestepsizes (2784): Increased step2 to 3.6e+00 (rej. rate = 7.400e-01)
+ (2) Info - optimisestepsizes (2784): Increased step3 to 9.4e+00 (rej. rate = 7.487e-01)
+ (2) Info - optimisestepsizes (2784): Increased step4 to 6.3e-01 (rej. rate = 7.288e-01)
+ (2) Info - optimisestepsizes (2848): Increased step1 to 4.0e+00 (rej. rate = 7.006e-01)
+ (1) Info - optimisestepsizes (2848): Increased step2 to 3.3e+00 (rej. rate = 6.881e-01)
+ (1) Info - optimisestepsizes (2848): Decreased step3 to 9.7e+00 (rej. rate = 7.887e-01)
+ (1) Info - optimisestepsizes (2848): Increased step4 to 7.0e-01 (rej. rate = 7.363e-01)
+ (1) Info - optimisestepsizes (2912): Decreased step1 to 4.8e+00 (rej. rate = 8.075e-01)
+ (4) Info - optimisestepsizes (2848): Decreased step2 to 3.3e+00 (rej. rate = 8.400e-01)
+ (4) Info - optimisestepsizes (2848): Increased step3 to 9.4e+00 (rej. rate = 7.734e-01)
+ (4) Info - optimisestepsizes (2848): Decreased step4 to 7.0e-01 (rej. rate = 8.200e-01)
+ (4) Info - optimisestepsizes (2912): Increased step1 to 4.7e+00 (rej. rate = 7.684e-01)
+ (5) Info - optimisestepsizes (2848): Decreased step2 to 3.4e+00 (rej. rate = 8.575e-01)
+ (5) Info - optimisestepsizes (2848): Increased step3 to 9.5e+00 (rej. rate = 7.609e-01)
+ (5) Info - optimisestepsizes (2848): Decreased step4 to 7.3e-01 (rej. rate = 8.427e-01)
+ (5) Info - optimisestepsizes (2912): Increased step1 to 4.4e+00 (rej. rate = 7.000e-01)
+ (3) Info - optimisestepsizes (2848): Decreased step2 to 3.6e+00 (rej. rate = 9.153e-01)
+ (3) Info - optimisestepsizes (2848): Increased step3 to 9.4e+00 (rej. rate = 7.409e-01)
+ (3) Info - optimisestepsizes (2848): Decreased step4 to 7.6e-01 (rej. rate = 8.972e-01)
+ (3) Info - optimisestepsizes (2912): Increased step1 to 4.5e+00 (rej. rate = 7.125e-01)
+ (2) Info - optimisestepsizes (2848): Increased step2 to 3.6e+00 (rej. rate = 7.209e-01)
+ (2) Info - optimisestepsizes (2848): Decreased step3 to 9.4e+00 (rej. rate = 8.222e-01)
+ (2) Info - optimisestepsizes (2848): Increased step4 to 6.3e-01 (rej. rate = 6.957e-01)
+ (2) Info - optimisestepsizes (2912): Increased step1 to 4.0e+00 (rej. rate = 7.253e-01)
+ (1) Info - optimisestepsizes (2912): Increased step2 to 3.3e+00 (rej. rate = 6.916e-01)
+ (1) Info - optimisestepsizes (2912): Increased step3 to 9.7e+00 (rej. rate = 7.647e-01)
+ (1) Info - optimisestepsizes (2912): Increased step4 to 7.0e-01 (rej. rate = 7.129e-01)
+ (1) Info - optimisestepsizes (2976): Increased step1 to 4.8e+00 (rej. rate = 7.637e-01)
+ (4) Info - optimisestepsizes (2912): Increased step2 to 3.3e+00 (rej. rate = 7.506e-01)
+ (4) Info - optimisestepsizes (2912): Increased step3 to 9.4e+00 (rej. rate = 7.531e-01)
+ (4) Info - optimisestepsizes (2912): Increased step4 to 7.0e-01 (rej. rate = 7.489e-01)
+ (4) Info - optimisestepsizes (2976): Increased step1 to 4.7e+00 (rej. rate = 7.716e-01)
+ (5) Info - optimisestepsizes (2912): Decreased step2 to 3.4e+00 (rej. rate = 8.478e-01)
+ (5) Info - optimisestepsizes (2912): Increased step3 to 9.5e+00 (rej. rate = 7.547e-01)
+ (5) Info - optimisestepsizes (2912): Decreased step4 to 7.3e-01 (rej. rate = 8.353e-01)
+ (5) Info - optimisestepsizes (2976): Decreased step1 to 4.4e+00 (rej. rate = 8.091e-01)
+ (3) Info - optimisestepsizes (2912): Decreased step2 to 3.6e+00 (rej. rate = 8.506e-01)
+ (3) Info - optimisestepsizes (2912): Decreased step3 to 9.4e+00 (rej. rate = 7.975e-01)
+ (3) Info - optimisestepsizes (2912): Decreased step4 to 7.6e-01 (rej. rate = 8.332e-01)
+ (3) Info - optimisestepsizes (2976): Decreased step1 to 4.5e+00 (rej. rate = 7.766e-01)
+ (2) Info - optimisestepsizes (2912): Decreased step2 to 3.6e+00 (rej. rate = 8.313e-01)
+ (2) Info - optimisestepsizes (2912): Increased step3 to 9.4e+00 (rej. rate = 7.431e-01)
+ (2) Info - optimisestepsizes (2912): Decreased step4 to 6.3e-01 (rej. rate = 7.885e-01)
+ (2) Info - optimisestepsizes (2976): Increased step1 to 4.0e+00 (rej. rate = 6.700e-01)
+ (1) Info - optimisestepsizes (2976): Increased step2 to 3.3e+00 (rej. rate = 7.147e-01)
+ (1) Info - optimisestepsizes (2976): Decreased step3 to 9.7e+00 (rej. rate = 7.781e-01)
+ (1) Info - optimisestepsizes (2976): Increased step4 to 7.0e-01 (rej. rate = 7.274e-01)
+ (1)...current output at MCit=3000 (3975.907 sec)(logtarget_curr = -1.34402040e+03):
+ (4) Info - optimisestepsizes (2976): Increased step2 to 3.3e+00 (rej. rate = 6.912e-01)
+ (4) Info - optimisestepsizes (2976): Increased step3 to 9.4e+00 (rej. rate = 7.403e-01)
+ (4) Info - optimisestepsizes (2976): Increased step4 to 7.0e-01 (rej. rate = 6.950e-01)
+ (4)...current output at MCit=3000 (3982.366 sec)(logtarget_curr = -1.18756686e+03):
+ (5) Info - optimisestepsizes (2976): Increased step2 to 3.4e+00 (rej. rate = 7.181e-01)
+ (5) Info - optimisestepsizes (2976): Decreased step3 to 9.5e+00 (rej. rate = 8.003e-01)
+ (5) Info - optimisestepsizes (2976): Increased step4 to 7.3e-01 (rej. rate = 7.553e-01)
+ (5)...current output at MCit=3000 (3985.771 sec)(logtarget_curr = -1.24073155e+03):
+ (3) Info - optimisestepsizes (2976): Increased step2 to 3.6e+00 (rej. rate = 7.625e-01)
+ (3) Info - optimisestepsizes (2976): Decreased step3 to 9.4e+00 (rej. rate = 7.772e-01)
+ (3) Info - optimisestepsizes (2976): Increased step4 to 7.6e-01 (rej. rate = 7.585e-01)
+ (3)...current output at MCit=3000 (3989.220 sec)(logtarget_curr = -1.34814324e+03):
+ (2) Info - optimisestepsizes (2976): Decreased step2 to 3.6e+00 (rej. rate = 8.506e-01)
+ (2) Info - optimisestepsizes (2976): Increased step3 to 9.4e+00 (rej. rate = 7.384e-01)
+ (2) Info - optimisestepsizes (2976): Decreased step4 to 6.3e-01 (rej. rate = 8.152e-01)
+ (2)...current output at MCit=3000 (3998.937 sec)(logtarget_curr = -1.36472390e+03):
+ (1) ...state 1:	(50 measurements, [ 100.00% ])
+ (1)  l12 = 4.393e+01	l13 = 6.999e+01	
+ (1)  l23 = 3.441e+01	
+ (1)  merr1 = [ 1.33e+01 2.27e+00 ]	merr2 = [ 5.75e+00 2.43e+01 ]	merr3 = [ 2.02e+01 4.39e+01 ]	
+ (1) rejection rates: [ 0.8175 0.6908 0.8125 0.7172 ]
+ (1) Info - optimisestepsizes (3040): Decreased step1 to 4.8e+00 (rej. rate = 7.966e-01)
+ (4) ...state 1:	(50 measurements, [ 100.00% ])
+ (4)  l12 = 4.462e+01	l13 = 8.490e+01	
+ (4)  l23 = 4.460e+01	
+ (4)  merr1 = [ 1.12e+01 1.41e-01 ]	merr2 = [ 9.25e+00 2.23e+01 ]	merr3 = [ 1.12e+01 3.84e+01 ]	
+ (4) rejection rates: [ 0.8142 0.7358 0.7108 0.7864 ]
+ (4) Info - optimisestepsizes (3040): Decreased step1 to 4.7e+00 (rej. rate = 8.597e-01)
+ (5) ...state 1:	(50 measurements, [ 100.00% ])
+ (5)  l12 = 4.546e+01	l13 = 7.808e+01	
+ (5)  l23 = 4.071e+01	
+ (5)  merr1 = [ 5.14e+00 7.94e-01 ]	merr2 = [ 9.79e+00 2.23e+01 ]	merr3 = [ 1.77e+01 4.79e+01 ]	
+ (5) rejection rates: [ 0.7017 0.7033 0.8450 0.7360 ]
+ (5) Info - optimisestepsizes (3040): Increased step1 to 4.4e+00 (rej. rate = 7.481e-01)
+ (3) ...state 1:	(50 measurements, [ 100.00% ])
+ (3)  l12 = 4.463e+01	l13 = 7.989e+01	
+ (3)  l23 = 4.267e+01	
+ (3)  merr1 = [ 1.27e+01 1.96e+00 ]	merr2 = [ 8.87e+00 1.84e+01 ]	merr3 = [ 1.32e+01 5.26e+01 ]	
+ (3) rejection rates: [ 0.9358 0.7725 0.7508 0.8630 ]
+ (3) Info - optimisestepsizes (3040): Decreased step1 to 4.5e+00 (rej. rate = 8.294e-01)
+ (2) ...state 1:	(50 measurements, [ 100.00% ])
+ (2)  l12 = 4.450e+01	l13 = 7.542e+01	
+ (2)  l23 = 3.981e+01	
+ (2)  merr1 = [ 1.38e+01 1.06e+01 ]	merr2 = [ 4.24e+00 2.18e+01 ]	merr3 = [ 1.79e+01 3.91e+01 ]	
+ (2) rejection rates: [ 0.7950 0.7700 0.7942 0.7137 ]
+ (2) Info - optimisestepsizes (3040): Decreased step1 to 4.0e+00 (rej. rate = 7.756e-01)
+ (1) Info - optimisestepsizes (3040): Increased step2 to 3.3e+00 (rej. rate = 6.984e-01)
+ (1) Info - optimisestepsizes (3040): Decreased step3 to 9.7e+00 (rej. rate = 8.066e-01)
+ (1) Info - optimisestepsizes (3040): Increased step4 to 7.0e-01 (rej. rate = 7.187e-01)
+ (1) Info - optimisestepsizes (3104): Decreased step1 to 4.8e+00 (rej. rate = 7.825e-01)
+ (4) Info - optimisestepsizes (3040): Increased step2 to 3.3e+00 (rej. rate = 7.181e-01)
+ (4) Info - optimisestepsizes (3040): Increased step3 to 9.4e+00 (rej. rate = 7.384e-01)
+ (4) Info - optimisestepsizes (3040): Decreased step4 to 7.0e-01 (rej. rate = 7.777e-01)
+ (4) Info - optimisestepsizes (3104): Increased step1 to 4.7e+00 (rej. rate = 7.406e-01)
+ (5) Info - optimisestepsizes (3040): Decreased step2 to 3.4e+00 (rej. rate = 7.769e-01)
+ (5) Info - optimisestepsizes (3040): Increased step3 to 9.5e+00 (rej. rate = 7.666e-01)
+ (5) Info - optimisestepsizes (3040): Decreased step4 to 7.3e-01 (rej. rate = 7.920e-01)
+ (5) Info - optimisestepsizes (3104): Decreased step1 to 4.4e+00 (rej. rate = 7.947e-01)
+ (3) Info - optimisestepsizes (3040): Decreased step2 to 3.6e+00 (rej. rate = 7.950e-01)
+ (3) Info - optimisestepsizes (3040): Increased step3 to 9.4e+00 (rej. rate = 7.694e-01)
+ (3) Info - optimisestepsizes (3040): Decreased step4 to 7.6e-01 (rej. rate = 8.099e-01)
+ (3) Info - optimisestepsizes (3104): Decreased step1 to 4.5e+00 (rej. rate = 8.466e-01)
+ (2) Info - optimisestepsizes (3040): Decreased step2 to 3.6e+00 (rej. rate = 8.069e-01)
+ (2) Info - optimisestepsizes (3040): Increased step3 to 9.4e+00 (rej. rate = 7.500e-01)
+ (2) Info - optimisestepsizes (3040): Increased step4 to 6.3e-01 (rej. rate = 7.551e-01)
+ (2) Info - optimisestepsizes (3104): Decreased step1 to 4.0e+00 (rej. rate = 8.247e-01)
+ (1) Info - optimisestepsizes (3104): Increased step2 to 3.3e+00 (rej. rate = 6.984e-01)
+ (1) Info - optimisestepsizes (3104): Increased step3 to 9.7e+00 (rej. rate = 7.691e-01)
+ (1) Info - optimisestepsizes (3104): Increased step4 to 7.0e-01 (rej. rate = 7.198e-01)
+ (1) Info - optimisestepsizes (3168): Increased step1 to 4.8e+00 (rej. rate = 7.675e-01)
+ (4) Info - optimisestepsizes (3104): Increased step2 to 3.3e+00 (rej. rate = 7.684e-01)
+ (4) Info - optimisestepsizes (3104): Increased step3 to 9.4e+00 (rej. rate = 7.559e-01)
+ (4) Info - optimisestepsizes (3104): Increased step4 to 7.0e-01 (rej. rate = 7.653e-01)
+ (4) Info - optimisestepsizes (3168): Decreased step1 to 4.7e+00 (rej. rate = 8.025e-01)
+ (5) Info - optimisestepsizes (3104): Increased step2 to 3.4e+00 (rej. rate = 7.206e-01)
+ (5) Info - optimisestepsizes (3104): Decreased step3 to 9.5e+00 (rej. rate = 7.831e-01)
+ (5) Info - optimisestepsizes (3104): Increased step4 to 7.3e-01 (rej. rate = 7.586e-01)
+ (5) Info - optimisestepsizes (3168): Increased step1 to 4.4e+00 (rej. rate = 7.156e-01)
+ (3) Info - optimisestepsizes (3104): Decreased step2 to 3.6e+00 (rej. rate = 8.016e-01)
+ (3) Info - optimisestepsizes (3104): Decreased step3 to 9.4e+00 (rej. rate = 7.825e-01)
+ (3) Info - optimisestepsizes (3104): Decreased step4 to 7.6e-01 (rej. rate = 7.963e-01)
+ (3) Info - optimisestepsizes (3168): Increased step1 to 4.5e+00 (rej. rate = 7.112e-01)
+ (2) Info - optimisestepsizes (3104): Decreased step2 to 3.6e+00 (rej. rate = 8.072e-01)
+ (2) Info - optimisestepsizes (3104): Increased step3 to 9.4e+00 (rej. rate = 7.047e-01)
+ (2) Info - optimisestepsizes (3104): Decreased step4 to 6.3e-01 (rej. rate = 8.215e-01)
+ (2) Info - optimisestepsizes (3168): Increased step1 to 4.0e+00 (rej. rate = 6.925e-01)
+ (1) Info - optimisestepsizes (3168): Decreased step2 to 3.3e+00 (rej. rate = 8.297e-01)
+ (1) Info - optimisestepsizes (3168): Decreased step3 to 9.7e+00 (rej. rate = 7.875e-01)
+ (1) Info - optimisestepsizes (3168): Decreased step4 to 7.0e-01 (rej. rate = 8.057e-01)
+ (1) Info - optimisestepsizes (3232): Decreased step1 to 4.8e+00 (rej. rate = 8.069e-01)
+ (4) Info - optimisestepsizes (3168): Increased step2 to 3.3e+00 (rej. rate = 7.262e-01)
+ (4) Info - optimisestepsizes (3168): Decreased step3 to 9.4e+00 (rej. rate = 7.997e-01)
+ (4) Info - optimisestepsizes (3168): Increased step4 to 7.0e-01 (rej. rate = 7.378e-01)
+ (4) Info - optimisestepsizes (3232): Decreased step1 to 4.7e+00 (rej. rate = 8.034e-01)
+ (5) Info - optimisestepsizes (3168): Increased step2 to 3.4e+00 (rej. rate = 7.575e-01)
+ (5) Info - optimisestepsizes (3168): Decreased step3 to 9.5e+00 (rej. rate = 8.062e-01)
+ (5) Info - optimisestepsizes (3168): Increased step4 to 7.3e-01 (rej. rate = 7.605e-01)
+ (5) Info - optimisestepsizes (3232): Increased step1 to 4.4e+00 (rej. rate = 7.506e-01)
+ (3) Info - optimisestepsizes (3168): Decreased step2 to 3.6e+00 (rej. rate = 7.900e-01)
+ (3) Info - optimisestepsizes (3168): Increased step3 to 9.4e+00 (rej. rate = 7.581e-01)
+ (3) Info - optimisestepsizes (3168): Increased step4 to 7.6e-01 (rej. rate = 7.747e-01)
+ (3) Info - optimisestepsizes (3232): Increased step1 to 4.5e+00 (rej. rate = 6.941e-01)
+ (2) Info - optimisestepsizes (3168): Increased step2 to 3.6e+00 (rej. rate = 7.169e-01)
+ (2) Info - optimisestepsizes (3168): Decreased step3 to 9.4e+00 (rej. rate = 8.044e-01)
+ (2) Info - optimisestepsizes (3168): Increased step4 to 6.3e-01 (rej. rate = 6.976e-01)
+ (2) Info - optimisestepsizes (3232): Increased step1 to 4.0e+00 (rej. rate = 7.509e-01)
+ (1) Info - optimisestepsizes (3232): Decreased step2 to 3.3e+00 (rej. rate = 8.047e-01)
+ (1) Info - optimisestepsizes (3232): Decreased step3 to 9.7e+00 (rej. rate = 8.041e-01)
+ (1) Info - optimisestepsizes (3232): Decreased step4 to 7.0e-01 (rej. rate = 7.944e-01)
+ (1) Info - optimisestepsizes (3296): Increased step1 to 4.8e+00 (rej. rate = 7.634e-01)
+ (4) Info - optimisestepsizes (3232): Increased step2 to 3.3e+00 (rej. rate = 6.966e-01)
+ (4) Info - optimisestepsizes (3232): Increased step3 to 9.4e+00 (rej. rate = 7.675e-01)
+ (4) Info - optimisestepsizes (3232): Increased step4 to 7.0e-01 (rej. rate = 7.422e-01)
+ (4) Info - optimisestepsizes (3296): Increased step1 to 4.7e+00 (rej. rate = 7.516e-01)
+ (5) Info - optimisestepsizes (3232): Decreased step2 to 3.4e+00 (rej. rate = 8.125e-01)
+ (5) Info - optimisestepsizes (3232): Increased step3 to 9.5e+00 (rej. rate = 7.559e-01)
+ (5) Info - optimisestepsizes (3232): Decreased step4 to 7.3e-01 (rej. rate = 8.066e-01)
+ (5) Info - optimisestepsizes (3296): Increased step1 to 4.4e+00 (rej. rate = 7.066e-01)
+ (3) Info - optimisestepsizes (3232): Decreased step2 to 3.6e+00 (rej. rate = 7.778e-01)
+ (3) Info - optimisestepsizes (3232): Decreased step3 to 9.4e+00 (rej. rate = 7.825e-01)
+ (3) Info - optimisestepsizes (3232): Increased step4 to 7.6e-01 (rej. rate = 7.707e-01)
+ (3) Info - optimisestepsizes (3296): Increased step1 to 4.5e+00 (rej. rate = 7.566e-01)
+ (2) Info - optimisestepsizes (3232): Increased step2 to 3.6e+00 (rej. rate = 7.694e-01)
+ (2) Info - optimisestepsizes (3232): Increased step3 to 9.4e+00 (rej. rate = 7.672e-01)
+ (2) Info - optimisestepsizes (3232): Increased step4 to 6.3e-01 (rej. rate = 7.105e-01)
+ (2) Info - optimisestepsizes (3296): Increased step1 to 4.0e+00 (rej. rate = 7.287e-01)
+ (1) Info - optimisestepsizes (3296): Increased step2 to 3.3e+00 (rej. rate = 7.722e-01)
+ (1) Info - optimisestepsizes (3296): Decreased step3 to 9.7e+00 (rej. rate = 8.069e-01)
+ (1) Info - optimisestepsizes (3296): Increased step4 to 7.0e-01 (rej. rate = 7.671e-01)
+ (1) Info - optimisestepsizes (3360): Decreased step1 to 4.8e+00 (rej. rate = 8.016e-01)
+ (4) Info - optimisestepsizes (3296): Increased step2 to 3.3e+00 (rej. rate = 7.409e-01)
+ (4) Info - optimisestepsizes (3296): Increased step3 to 9.4e+00 (rej. rate = 7.716e-01)
+ (4) Info - optimisestepsizes (3296): Increased step4 to 7.0e-01 (rej. rate = 7.463e-01)
+ (4) Info - optimisestepsizes (3360): Decreased step1 to 4.7e+00 (rej. rate = 7.928e-01)
+ (5) Info - optimisestepsizes (3296): Increased step2 to 3.4e+00 (rej. rate = 7.300e-01)
+ (5) Info - optimisestepsizes (3296): Decreased step3 to 9.5e+00 (rej. rate = 7.919e-01)
+ (5) Info - optimisestepsizes (3296): Increased step4 to 7.3e-01 (rej. rate = 7.444e-01)
+ (5) Info - optimisestepsizes (3360): Increased step1 to 4.4e+00 (rej. rate = 7.291e-01)
+ (3) Info - optimisestepsizes (3296): Increased step2 to 3.6e+00 (rej. rate = 6.959e-01)
+ (3) Info - optimisestepsizes (3296): Decreased step3 to 9.4e+00 (rej. rate = 7.987e-01)
+ (3) Info - optimisestepsizes (3296): Increased step4 to 7.6e-01 (rej. rate = 7.215e-01)
+ (3) Info - optimisestepsizes (3360): Increased step1 to 4.5e+00 (rej. rate = 7.459e-01)
+ (2) Info - optimisestepsizes (3296): Increased step2 to 3.6e+00 (rej. rate = 7.131e-01)
+ (2) Info - optimisestepsizes (3296): Decreased step3 to 9.4e+00 (rej. rate = 7.887e-01)
+ (2) Info - optimisestepsizes (3296): Increased step4 to 6.3e-01 (rej. rate = 6.849e-01)
+ (2) Info - optimisestepsizes (3360): Increased step1 to 4.0e+00 (rej. rate = 7.725e-01)
+ (1) Info - optimisestepsizes (3360): Decreased step2 to 3.3e+00 (rej. rate = 7.806e-01)
+ (1) Info - optimisestepsizes (3360): Decreased step3 to 9.7e+00 (rej. rate = 8.319e-01)
+ (1) Info - optimisestepsizes (3360): Decreased step4 to 7.0e-01 (rej. rate = 7.928e-01)
+ (1) Info - optimisestepsizes (3424): Increased step1 to 4.8e+00 (rej. rate = 7.475e-01)
+ (4) Info - optimisestepsizes (3360): Increased step2 to 3.3e+00 (rej. rate = 6.162e-01)
+ (4) Info - optimisestepsizes (3360): Decreased step3 to 9.4e+00 (rej. rate = 7.953e-01)
+ (4) Info - optimisestepsizes (3360): Increased step4 to 7.0e-01 (rej. rate = 6.878e-01)
+ (4) Info - optimisestepsizes (3424): Increased step1 to 4.7e+00 (rej. rate = 7.659e-01)
+ (5) Info - optimisestepsizes (3360): Increased step2 to 3.4e+00 (rej. rate = 7.456e-01)
+ (5) Info - optimisestepsizes (3360): Decreased step3 to 9.5e+00 (rej. rate = 7.919e-01)
+ (5) Info - optimisestepsizes (3360): Increased step4 to 7.3e-01 (rej. rate = 7.510e-01)
+ (5) Info - optimisestepsizes (3424): Decreased step1 to 4.4e+00 (rej. rate = 7.769e-01)
+ (3) Info - optimisestepsizes (3360): Increased step2 to 3.6e+00 (rej. rate = 7.066e-01)
+ (3) Info - optimisestepsizes (3360): Decreased step3 to 9.4e+00 (rej. rate = 8.094e-01)
+ (3) Info - optimisestepsizes (3360): Increased step4 to 7.6e-01 (rej. rate = 7.497e-01)
+ (3) Info - optimisestepsizes (3424): Decreased step1 to 4.5e+00 (rej. rate = 7.844e-01)
+ (2) Info - optimisestepsizes (3360): Increased step2 to 3.6e+00 (rej. rate = 7.178e-01)
+ (2) Info - optimisestepsizes (3360): Decreased step3 to 9.4e+00 (rej. rate = 7.994e-01)
+ (2) Info - optimisestepsizes (3360): Increased step4 to 6.3e-01 (rej. rate = 6.817e-01)
+ (2) Info - optimisestepsizes (3424): Increased step1 to 4.0e+00 (rej. rate = 7.691e-01)
+ (1) Info - optimisestepsizes (3424): Decreased step2 to 3.3e+00 (rej. rate = 7.916e-01)
+ (1) Info - optimisestepsizes (3424): Decreased step3 to 9.7e+00 (rej. rate = 8.156e-01)
+ (1) Info - optimisestepsizes (3424): Decreased step4 to 7.0e-01 (rej. rate = 7.823e-01)
+ (1) Info - optimisestepsizes (3488): Increased step1 to 4.8e+00 (rej. rate = 7.400e-01)
+ (4) Info - optimisestepsizes (3424): Increased step2 to 3.3e+00 (rej. rate = 6.912e-01)
+ (4) Info - optimisestepsizes (3424): Decreased step3 to 9.4e+00 (rej. rate = 7.859e-01)
+ (4) Info - optimisestepsizes (3424): Increased step4 to 7.0e-01 (rej. rate = 7.171e-01)
+ (4) Info - optimisestepsizes (3488): Increased step1 to 4.7e+00 (rej. rate = 7.462e-01)
+ (5) Info - optimisestepsizes (3424): Increased step2 to 3.4e+00 (rej. rate = 6.694e-01)
+ (5) Info - optimisestepsizes (3424): Decreased step3 to 9.5e+00 (rej. rate = 7.906e-01)
+ (5) Info - optimisestepsizes (3424): Increased step4 to 7.3e-01 (rej. rate = 7.443e-01)
+ (5) Info - optimisestepsizes (3488): Increased step1 to 4.4e+00 (rej. rate = 7.494e-01)
+ (3) Info - optimisestepsizes (3424): Increased step2 to 3.6e+00 (rej. rate = 7.003e-01)
+ (3) Info - optimisestepsizes (3424): Decreased step3 to 9.4e+00 (rej. rate = 7.797e-01)
+ (3) Info - optimisestepsizes (3424): Increased step4 to 7.6e-01 (rej. rate = 7.424e-01)
+ (3) Info - optimisestepsizes (3488): Decreased step1 to 4.5e+00 (rej. rate = 8.331e-01)
+ (2) Info - optimisestepsizes (3424): Increased step2 to 3.6e+00 (rej. rate = 7.594e-01)
+ (2) Info - optimisestepsizes (3424): Increased step3 to 9.4e+00 (rej. rate = 7.637e-01)
+ (2) Info - optimisestepsizes (3424): Increased step4 to 6.3e-01 (rej. rate = 7.139e-01)
+ (2) Info - optimisestepsizes (3488): Increased step1 to 4.0e+00 (rej. rate = 7.250e-01)
+ (1) Info - optimisestepsizes (3488): Increased step2 to 3.3e+00 (rej. rate = 7.453e-01)
+ (1) Info - optimisestepsizes (3488): Decreased step3 to 9.7e+00 (rej. rate = 7.800e-01)
+ (1) Info - optimisestepsizes (3488): Increased step4 to 7.0e-01 (rej. rate = 7.435e-01)
+ (1) Info - optimisestepsizes (3552): Increased step1 to 4.8e+00 (rej. rate = 7.628e-01)
+ (4) Info - optimisestepsizes (3488): Increased step2 to 3.3e+00 (rej. rate = 7.616e-01)
+ (4) Info - optimisestepsizes (3488): Decreased step3 to 9.4e+00 (rej. rate = 7.956e-01)
+ (4) Info - optimisestepsizes (3488): Increased step4 to 7.0e-01 (rej. rate = 7.541e-01)
+ (4) Info - optimisestepsizes (3552): Increased step1 to 4.7e+00 (rej. rate = 7.231e-01)
+ (5) Info - optimisestepsizes (3488): Increased step2 to 3.4e+00 (rej. rate = 7.212e-01)
+ (5) Info - optimisestepsizes (3488): Increased step3 to 9.5e+00 (rej. rate = 7.112e-01)
+ (5) Info - optimisestepsizes (3488): Increased step4 to 7.3e-01 (rej. rate = 7.572e-01)
+ (5) Info - optimisestepsizes (3552): Increased step1 to 4.4e+00 (rej. rate = 7.631e-01)
+ (3) Info - optimisestepsizes (3488): Increased step2 to 3.6e+00 (rej. rate = 7.266e-01)
+ (3) Info - optimisestepsizes (3488): Increased step3 to 9.4e+00 (rej. rate = 7.544e-01)
+ (3) Info - optimisestepsizes (3488): Increased step4 to 7.6e-01 (rej. rate = 7.582e-01)
+ (3) Info - optimisestepsizes (3552): Increased step1 to 4.5e+00 (rej. rate = 7.044e-01)
+ (2) Info - optimisestepsizes (3488): Increased step2 to 3.6e+00 (rej. rate = 7.687e-01)
+ (2) Info - optimisestepsizes (3488): Increased step3 to 9.4e+00 (rej. rate = 7.387e-01)
+ (2) Info - optimisestepsizes (3488): Increased step4 to 6.3e-01 (rej. rate = 7.419e-01)
+ (2) Info - optimisestepsizes (3552): Decreased step1 to 4.0e+00 (rej. rate = 7.794e-01)
+ (1) Info - optimisestepsizes (3552): Increased step2 to 3.3e+00 (rej. rate = 6.094e-01)
+ (1) Info - optimisestepsizes (3552): Decreased step3 to 9.7e+00 (rej. rate = 7.928e-01)
+ (1) Info - optimisestepsizes (3552): Increased step4 to 7.0e-01 (rej. rate = 6.801e-01)
+ (1) Info - optimisestepsizes (3616): Increased step1 to 4.8e+00 (rej. rate = 7.600e-01)
+ (4) Info - optimisestepsizes (3552): Decreased step2 to 3.3e+00 (rej. rate = 8.288e-01)
+ (4) Info - optimisestepsizes (3552): Increased step3 to 9.4e+00 (rej. rate = 7.700e-01)
+ (4) Info - optimisestepsizes (3552): Decreased step4 to 7.0e-01 (rej. rate = 8.013e-01)
+ (4) Info - optimisestepsizes (3616): Increased step1 to 4.7e+00 (rej. rate = 7.037e-01)
+ (5) Info - optimisestepsizes (3552): Increased step2 to 3.4e+00 (rej. rate = 7.000e-01)
+ (5) Info - optimisestepsizes (3552): Increased step3 to 9.5e+00 (rej. rate = 7.750e-01)
+ (5) Info - optimisestepsizes (3552): Increased step4 to 7.3e-01 (rej. rate = 7.460e-01)
+ (5) Info - optimisestepsizes (3616): Increased step1 to 4.4e+00 (rej. rate = 6.903e-01)
+ (3) Info - optimisestepsizes (3552): Decreased step2 to 3.6e+00 (rej. rate = 8.784e-01)
+ (3) Info - optimisestepsizes (3552): Increased step3 to 9.4e+00 (rej. rate = 7.147e-01)
+ (3) Info - optimisestepsizes (3552): Decreased step4 to 7.6e-01 (rej. rate = 8.699e-01)
+ (3) Info - optimisestepsizes (3616): Increased step1 to 4.5e+00 (rej. rate = 7.606e-01)
+ (2) Info - optimisestepsizes (3552): Increased step2 to 3.6e+00 (rej. rate = 6.878e-01)
+ (2) Info - optimisestepsizes (3552): Increased step3 to 9.4e+00 (rej. rate = 7.584e-01)
+ (2) Info - optimisestepsizes (3552): Increased step4 to 6.3e-01 (rej. rate = 6.631e-01)
+ (2) Info - optimisestepsizes (3616): Decreased step1 to 4.0e+00 (rej. rate = 8.844e-01)
+ (1) Info - optimisestepsizes (3616): Decreased step2 to 3.3e+00 (rej. rate = 7.753e-01)
+ (1) Info - optimisestepsizes (3616): Increased step3 to 9.7e+00 (rej. rate = 7.656e-01)
+ (1) Info - optimisestepsizes (3616): Increased step4 to 7.0e-01 (rej. rate = 7.620e-01)
+ (1) Info - optimisestepsizes (3680): Decreased step1 to 4.8e+00 (rej. rate = 8.194e-01)
+ (4) Info - optimisestepsizes (3616): Increased step2 to 3.3e+00 (rej. rate = 7.225e-01)
+ (4) Info - optimisestepsizes (3616): Increased step3 to 9.4e+00 (rej. rate = 7.684e-01)
+ (4) Info - optimisestepsizes (3616): Increased step4 to 7.0e-01 (rej. rate = 7.409e-01)
+ (4) Info - optimisestepsizes (3680): Decreased step1 to 4.7e+00 (rej. rate = 8.109e-01)
+ (5) Info - optimisestepsizes (3616): Increased step2 to 3.4e+00 (rej. rate = 6.691e-01)
+ (5) Info - optimisestepsizes (3616): Decreased step3 to 9.5e+00 (rej. rate = 8.178e-01)
+ (5) Info - optimisestepsizes (3616): Increased step4 to 7.3e-01 (rej. rate = 7.366e-01)
+ (5) Info - optimisestepsizes (3680): Increased step1 to 4.4e+00 (rej. rate = 7.450e-01)
+ (3) Info - optimisestepsizes (3616): Decreased step2 to 3.6e+00 (rej. rate = 8.194e-01)
+ (3) Info - optimisestepsizes (3616): Decreased step3 to 9.4e+00 (rej. rate = 7.984e-01)
+ (3) Info - optimisestepsizes (3616): Decreased step4 to 7.6e-01 (rej. rate = 8.155e-01)
+ (3) Info - optimisestepsizes (3680): Decreased step1 to 4.5e+00 (rej. rate = 8.078e-01)
+ (2) Info - optimisestepsizes (3616): Decreased step2 to 3.6e+00 (rej. rate = 7.850e-01)
+ (2) Info - optimisestepsizes (3616): Decreased step3 to 9.4e+00 (rej. rate = 7.800e-01)
+ (2) Info - optimisestepsizes (3616): Decreased step4 to 6.3e-01 (rej. rate = 7.796e-01)
+ (2) Info - optimisestepsizes (3680): Increased step1 to 4.0e+00 (rej. rate = 7.234e-01)
+ (1) Info - optimisestepsizes (3680): Increased step2 to 3.3e+00 (rej. rate = 7.478e-01)
+ (1) Info - optimisestepsizes (3680): Decreased step3 to 9.7e+00 (rej. rate = 7.934e-01)
+ (1) Info - optimisestepsizes (3680): Increased step4 to 7.0e-01 (rej. rate = 7.693e-01)
+ (1) Info - optimisestepsizes (3744): Decreased step1 to 4.8e+00 (rej. rate = 8.203e-01)
+ (4) Info - optimisestepsizes (3680): Increased step2 to 3.3e+00 (rej. rate = 7.069e-01)
+ (4) Info - optimisestepsizes (3680): Increased step3 to 9.4e+00 (rej. rate = 7.525e-01)
+ (4) Info - optimisestepsizes (3680): Increased step4 to 7.0e-01 (rej. rate = 7.369e-01)
+ (4) Info - optimisestepsizes (3744): Decreased step1 to 4.7e+00 (rej. rate = 8.309e-01)
+ (5) Info - optimisestepsizes (3680): Decreased step2 to 3.4e+00 (rej. rate = 7.931e-01)
+ (5) Info - optimisestepsizes (3680): Decreased step3 to 9.5e+00 (rej. rate = 8.031e-01)
+ (5) Info - optimisestepsizes (3680): Decreased step4 to 7.3e-01 (rej. rate = 7.802e-01)
+ (5) Info - optimisestepsizes (3744): Increased step1 to 4.4e+00 (rej. rate = 7.006e-01)
+ (3) Info - optimisestepsizes (3680): Decreased step2 to 3.6e+00 (rej. rate = 7.978e-01)
+ (3) Info - optimisestepsizes (3680): Increased step3 to 9.4e+00 (rej. rate = 7.272e-01)
+ (3) Info - optimisestepsizes (3680): Decreased step4 to 7.6e-01 (rej. rate = 7.914e-01)
+ (3) Info - optimisestepsizes (3744): Increased step1 to 4.5e+00 (rej. rate = 7.181e-01)
+ (2) Info - optimisestepsizes (3680): Decreased step2 to 3.6e+00 (rej. rate = 8.062e-01)
+ (2) Info - optimisestepsizes (3680): Increased step3 to 9.4e+00 (rej. rate = 7.528e-01)
+ (2) Info - optimisestepsizes (3680): Decreased step4 to 6.3e-01 (rej. rate = 7.857e-01)
+ (2) Info - optimisestepsizes (3744): Increased step1 to 4.0e+00 (rej. rate = 7.231e-01)
+ (1) Info - optimisestepsizes (3744): Increased step2 to 3.3e+00 (rej. rate = 7.475e-01)
+ (1) Info - optimisestepsizes (3744): Decreased step3 to 9.7e+00 (rej. rate = 8.194e-01)
+ (1) Info - optimisestepsizes (3744): Increased step4 to 7.0e-01 (rej. rate = 7.579e-01)
+ (1) Info - optimisestepsizes (3808): Decreased step1 to 4.8e+00 (rej. rate = 7.884e-01)
+ (4) Info - optimisestepsizes (3744): Increased step2 to 3.3e+00 (rej. rate = 7.606e-01)
+ (4) Info - optimisestepsizes (3744): Decreased step3 to 9.4e+00 (rej. rate = 7.778e-01)
+ (4) Info - optimisestepsizes (3744): Decreased step4 to 7.0e-01 (rej. rate = 7.795e-01)
+ (4) Info - optimisestepsizes (3808): Decreased step1 to 4.7e+00 (rej. rate = 7.884e-01)
+ (3) Info - optimisestepsizes (3744): Increased step2 to 3.6e+00 (rej. rate = 7.431e-01)
+ (3) Info - optimisestepsizes (3744): Increased step3 to 9.4e+00 (rej. rate = 7.619e-01)
+ (3) Info - optimisestepsizes (3744): Increased step4 to 7.6e-01 (rej. rate = 7.394e-01)
+ (3) Info - optimisestepsizes (3808): Decreased step1 to 4.5e+00 (rej. rate = 8.422e-01)
+ (5) Info - optimisestepsizes (3744): Increased step2 to 3.4e+00 (rej. rate = 6.853e-01)
+ (5) Info - optimisestepsizes (3744): Decreased step3 to 9.5e+00 (rej. rate = 7.753e-01)
+ (5) Info - optimisestepsizes (3744): Increased step4 to 7.3e-01 (rej. rate = 7.144e-01)
+ (5) Info - optimisestepsizes (3808): Increased step1 to 4.4e+00 (rej. rate = 6.887e-01)
+ (2) Info - optimisestepsizes (3744): Decreased step2 to 3.6e+00 (rej. rate = 8.669e-01)
+ (2) Info - optimisestepsizes (3744): Increased step3 to 9.4e+00 (rej. rate = 7.359e-01)
+ (2) Info - optimisestepsizes (3744): Decreased step4 to 6.3e-01 (rej. rate = 7.874e-01)
+ (2) Info - optimisestepsizes (3808): Increased step1 to 4.0e+00 (rej. rate = 7.200e-01)
+ (1) Info - optimisestepsizes (3808): Increased step2 to 3.3e+00 (rej. rate = 6.559e-01)
+ (1) Info - optimisestepsizes (3808): Decreased step3 to 9.7e+00 (rej. rate = 8.056e-01)
+ (1) Info - optimisestepsizes (3808): Increased step4 to 7.0e-01 (rej. rate = 7.033e-01)
+ (1) Info - optimisestepsizes (3872): Increased step1 to 4.8e+00 (rej. rate = 7.384e-01)
+ (4) Info - optimisestepsizes (3808): Decreased step2 to 3.3e+00 (rej. rate = 8.316e-01)
+ (4) Info - optimisestepsizes (3808): Increased step3 to 9.4e+00 (rej. rate = 7.550e-01)
+ (4) Info - optimisestepsizes (3808): Decreased step4 to 7.0e-01 (rej. rate = 8.383e-01)
+ (4) Info - optimisestepsizes (3872): Increased step1 to 4.7e+00 (rej. rate = 6.637e-01)
+ (3) Info - optimisestepsizes (3808): Decreased step2 to 3.6e+00 (rej. rate = 7.859e-01)
+ (3) Info - optimisestepsizes (3808): Decreased step3 to 9.4e+00 (rej. rate = 8.237e-01)
+ (3) Info - optimisestepsizes (3808): Decreased step4 to 7.6e-01 (rej. rate = 8.193e-01)
+ (3) Info - optimisestepsizes (3872): Increased step1 to 4.5e+00 (rej. rate = 7.641e-01)
+ (5) Info - optimisestepsizes (3808): Increased step2 to 3.4e+00 (rej. rate = 7.381e-01)
+ (5) Info - optimisestepsizes (3808): Decreased step3 to 9.5e+00 (rej. rate = 8.084e-01)
+ (5) Info - optimisestepsizes (3808): Increased step4 to 7.3e-01 (rej. rate = 7.415e-01)
+ (5) Info - optimisestepsizes (3872): Increased step1 to 4.4e+00 (rej. rate = 7.241e-01)
+ (2) Info - optimisestepsizes (3808): Decreased step2 to 3.6e+00 (rej. rate = 8.187e-01)
+ (2) Info - optimisestepsizes (3808): Decreased step3 to 9.4e+00 (rej. rate = 7.812e-01)
+ (2) Info - optimisestepsizes (3808): Increased step4 to 6.3e-01 (rej. rate = 7.716e-01)
+ (2) Info - optimisestepsizes (3872): Increased step1 to 4.0e+00 (rej. rate = 6.956e-01)
+ (1) Info - optimisestepsizes (3872): Decreased step2 to 3.3e+00 (rej. rate = 7.828e-01)
+ (1) Info - optimisestepsizes (3872): Decreased step3 to 9.7e+00 (rej. rate = 8.034e-01)
+ (1) Info - optimisestepsizes (3872): Decreased step4 to 7.0e-01 (rej. rate = 7.899e-01)
+ (1) Info - optimisestepsizes (3936): Decreased step1 to 4.8e+00 (rej. rate = 7.837e-01)
+ (4) Info - optimisestepsizes (3872): Decreased step2 to 3.3e+00 (rej. rate = 8.653e-01)
+ (4) Info - optimisestepsizes (3872): Decreased step3 to 9.4e+00 (rej. rate = 8.034e-01)
+ (4) Info - optimisestepsizes (3872): Decreased step4 to 7.0e-01 (rej. rate = 8.362e-01)
+ (4) Info - optimisestepsizes (3936): Decreased step1 to 4.7e+00 (rej. rate = 8.556e-01)
+ (3) Info - optimisestepsizes (3872): Decreased step2 to 3.6e+00 (rej. rate = 7.891e-01)
+ (3) Info - optimisestepsizes (3872): Increased step3 to 9.4e+00 (rej. rate = 7.656e-01)
+ (3) Info - optimisestepsizes (3872): Decreased step4 to 7.6e-01 (rej. rate = 7.839e-01)
+ (3) Info - optimisestepsizes (3936): Decreased step1 to 4.5e+00 (rej. rate = 8.144e-01)
+ (5) Info - optimisestepsizes (3872): Increased step2 to 3.4e+00 (rej. rate = 7.325e-01)
+ (5) Info - optimisestepsizes (3872): Decreased step3 to 9.5e+00 (rej. rate = 7.912e-01)
+ (5) Info - optimisestepsizes (3872): Increased step4 to 7.3e-01 (rej. rate = 7.411e-01)
+ (5) Info - optimisestepsizes (3936): Decreased step1 to 4.4e+00 (rej. rate = 8.434e-01)
+ (2) Info - optimisestepsizes (3872): Decreased step2 to 3.6e+00 (rej. rate = 8.369e-01)
+ (2) Info - optimisestepsizes (3872): Increased step3 to 9.4e+00 (rej. rate = 7.666e-01)
+ (2) Info - optimisestepsizes (3872): Increased step4 to 6.3e-01 (rej. rate = 7.725e-01)
+ (2) Info - optimisestepsizes (3936): Increased step1 to 4.0e+00 (rej. rate = 7.359e-01)
+ (1) Info - optimisestepsizes (3936): Decreased step2 to 3.3e+00 (rej. rate = 8.703e-01)
+ (1) Info - optimisestepsizes (3936): Decreased step3 to 9.7e+00 (rej. rate = 8.066e-01)
+ (1) Info - optimisestepsizes (3936): Decreased step4 to 7.0e-01 (rej. rate = 8.401e-01)
+ (1) Info - optimisestepsizes (4000): Increased step1 to 4.8e+00 (rej. rate = 7.456e-01)
+ (4) Info - optimisestepsizes (3936): Increased step2 to 3.3e+00 (rej. rate = 7.025e-01)
+ (4) Info - optimisestepsizes (3936): Decreased step3 to 9.4e+00 (rej. rate = 8.009e-01)
+ (4) Info - optimisestepsizes (3936): Decreased step4 to 7.0e-01 (rej. rate = 7.944e-01)
+ (4) Info - optimisestepsizes (4000): Decreased step1 to 4.7e+00 (rej. rate = 7.837e-01)
+ (3) Info - optimisestepsizes (3936): Decreased step2 to 3.6e+00 (rej. rate = 7.794e-01)
+ (3) Info - optimisestepsizes (3936): Decreased step3 to 9.4e+00 (rej. rate = 8.031e-01)
+ (3) Info - optimisestepsizes (3936): Decreased step4 to 7.6e-01 (rej. rate = 7.864e-01)
+ (3) Info - optimisestepsizes (4000): Increased step1 to 4.5e+00 (rej. rate = 7.172e-01)
+ (5) Info - optimisestepsizes (3936): Increased step2 to 3.4e+00 (rej. rate = 7.559e-01)
+ (5) Info - optimisestepsizes (3936): Decreased step3 to 9.5e+00 (rej. rate = 7.931e-01)
+ (5) Info - optimisestepsizes (3936): Decreased step4 to 7.3e-01 (rej. rate = 8.032e-01)
+ (5) Info - optimisestepsizes (4000): Increased step1 to 4.4e+00 (rej. rate = 7.172e-01)
+ (2) Info - optimisestepsizes (3936): Increased step2 to 3.6e+00 (rej. rate = 6.984e-01)
+ (2) Info - optimisestepsizes (3936): Decreased step3 to 9.4e+00 (rej. rate = 7.991e-01)
+ (2) Info - optimisestepsizes (3936): Increased step4 to 6.3e-01 (rej. rate = 6.668e-01)
+ (2) Info - optimisestepsizes (4000): Increased step1 to 4.0e+00 (rej. rate = 7.437e-01)
+ (1) Info - optimisestepsizes (4000): Decreased step2 to 3.3e+00 (rej. rate = 8.234e-01)
+ (1) Info - optimisestepsizes (4000): Increased step3 to 9.7e+00 (rej. rate = 7.694e-01)
+ (1) Info - optimisestepsizes (4000): Decreased step4 to 7.0e-01 (rej. rate = 7.986e-01)
+ (1)...current output at MCit=4000 (5331.347 sec)(logtarget_curr = -1.25564431e+03):
+ (1) ...state 1:	(50 measurements, [ 100.00% ])
+ (1)  l12 = 4.324e+01	l13 = 7.161e+01	
+ (1)  l23 = 3.740e+01	
+ (1)  merr1 = [ 1.28e+01 2.52e+00 ]	merr2 = [ 2.59e+00 2.13e+01 ]	merr3 = [ 1.72e+01 3.94e+01 ]	
+ (1) rejection rates: [    NaN    NaN    NaN    NaN ]
+ (1) optimised stepsizes (4002): [ +4.7748e+00 +3.2988e+00 +9.6665e+00 +6.9852e-01 ]
+ (1)...current output at MCit=5000 (6690.437 sec)(logtarget_curr = -1.44047653e+03):
+ (4) Info - optimisestepsizes (4000): Increased step2 to 3.3e+00 (rej. rate = 7.316e-01)
+ (4) Info - optimisestepsizes (4000): Increased step3 to 9.4e+00 (rej. rate = 7.656e-01)
+ (4) Info - optimisestepsizes (4000): Increased step4 to 7.0e-01 (rej. rate = 7.398e-01)
+ (4)...current output at MCit=4000 (5344.625 sec)(logtarget_curr = -1.24598237e+03):
+ (4) ...state 1:	(50 measurements, [ 100.00% ])
+ (4)  l12 = 4.305e+01	l13 = 7.982e+01	
+ (4)  l23 = 4.572e+01	
+ (4)  merr1 = [ 1.27e+01 4.84e+00 ]	merr2 = [ 1.86e+00 1.88e+01 ]	merr3 = [ 1.45e+01 3.97e+01 ]	
+ (4) rejection rates: [    NaN    NaN    NaN    NaN ]
+ (4) optimised stepsizes (4002): [ +4.7445e+00 +3.2969e+00 +9.3725e+00 +7.0138e-01 ]
+ (4)...current output at MCit=5000 (6710.430 sec)(logtarget_curr = -1.26331922e+03):
+ (3) Info - optimisestepsizes (4000): Decreased step2 to 3.6e+00 (rej. rate = 7.797e-01)
+ (3) Info - optimisestepsizes (4000): Increased step3 to 9.4e+00 (rej. rate = 7.491e-01)
+ (3) Info - optimisestepsizes (4000): Decreased step4 to 7.6e-01 (rej. rate = 7.873e-01)
+ (3)...current output at MCit=4000 (5353.832 sec)(logtarget_curr = -1.35964182e+03):
+ (3) ...state 1:	(50 measurements, [ 100.00% ])
+ (3)  l12 = 5.054e+01	l13 = 8.310e+01	
+ (3)  l23 = 4.368e+01	
+ (3)  merr1 = [ 9.38e+00 1.35e+01 ]	merr2 = [ 4.62e+00 1.93e+01 ]	merr3 = [ 1.84e+01 4.62e+01 ]	
+ (3) rejection rates: [    NaN    NaN    NaN    NaN ]
+ (3) optimised stepsizes (4002): [ +4.4933e+00 +3.6095e+00 +9.4056e+00 +7.6284e-01 ]
+ (3)...current output at MCit=5000 (6722.340 sec)(logtarget_curr = -1.26628037e+03):
+ (5) Info - optimisestepsizes (4000): Decreased step2 to 3.4e+00 (rej. rate = 8.375e-01)
+ (5) Info - optimisestepsizes (4000): Increased step3 to 9.5e+00 (rej. rate = 7.516e-01)
+ (5) Info - optimisestepsizes (4000): Decreased step4 to 7.3e-01 (rej. rate = 8.065e-01)
+ (5)...current output at MCit=4000 (5354.232 sec)(logtarget_curr = -1.28367878e+03):
+ (5) ...state 1:	(50 measurements, [ 100.00% ])
+ (5)  l12 = 4.377e+01	l13 = 8.564e+01	
+ (5)  l23 = 4.799e+01	
+ (5)  merr1 = [ 1.70e+01 4.16e+00 ]	merr2 = [ 2.10e+00 1.97e+01 ]	merr3 = [ 1.46e+01 4.56e+01 ]	
+ (5) rejection rates: [    NaN    NaN    NaN    NaN ]
+ (5) optimised stepsizes (4002): [ +4.4177e+00 +3.4077e+00 +9.4706e+00 +7.3422e-01 ]
+ (5)...current output at MCit=5000 (6726.590 sec)(logtarget_curr = -1.41855251e+03):
+ (2) Info - optimisestepsizes (4000): Increased step2 to 3.6e+00 (rej. rate = 7.597e-01)
+ (2) Info - optimisestepsizes (4000): Decreased step3 to 9.4e+00 (rej. rate = 8.072e-01)
+ (2) Info - optimisestepsizes (4000): Increased step4 to 6.3e-01 (rej. rate = 7.105e-01)
+ (2)...current output at MCit=4000 (5366.609 sec)(logtarget_curr = -1.43247148e+03):
+ (2) ...state 1:	(50 measurements, [ 100.00% ])
+ (2)  l12 = 4.516e+01	l13 = 8.112e+01	
+ (2)  l23 = 4.044e+01	
+ (2)  merr1 = [ 1.39e+01 5.47e+00 ]	merr2 = [ 1.24e+01 2.00e+01 ]	merr3 = [ 1.43e+01 4.63e+01 ]	
+ (2) rejection rates: [    NaN    NaN    NaN    NaN ]
+ (2) optimised stepsizes (4002): [ +4.0159e+00 +3.5905e+00 +9.4215e+00 +6.3231e-01 ]
+ (2)...current output at MCit=5000 (6734.415 sec)(logtarget_curr = -1.31738312e+03):
+ (1) ...state 1:	(50 measurements, [ 100.00% ])
+ (1)  l12 = 4.214e+01	l13 = 7.400e+01	
+ (1)  l23 = 3.254e+01	
+ (1)  merr1 = [ 1.38e+01 4.23e+00 ]	merr2 = [ 1.05e+01 2.36e+01 ]	merr3 = [ 2.01e+01 3.61e+01 ]	
+ (1) rejection rates: [ 0.7916 0.7290 0.7869 0.7606 ]
+ (1)...current output at MCit=6000 (8056.843 sec)(logtarget_curr = -1.12067941e+03):
+ (4) ...state 1:	(50 measurements, [ 100.00% ])
+ (4)  l12 = 4.258e+01	l13 = 8.454e+01	
+ (4)  l23 = 4.668e+01	
+ (4)  merr1 = [ 1.14e+01 5.11e-01 ]	merr2 = [ 8.95e+00 2.64e+01 ]	merr3 = [ 1.13e+01 4.50e+01 ]	
+ (4) rejection rates: [ 0.7923 0.7678 0.7685 0.7778 ]
+ (4)...current output at MCit=6000 (8080.218 sec)(logtarget_curr = -1.34306276e+03):
+ (3) ...state 1:	(50 measurements, [ 100.00% ])
+ (3)  l12 = 4.590e+01	l13 = 8.290e+01	
+ (3)  l23 = 4.945e+01	
+ (3)  merr1 = [ 1.01e+01 6.41e+00 ]	merr2 = [ 2.61e+00 2.17e+01 ]	merr3 = [ 1.75e+01 3.76e+01 ]	
+ (3) rejection rates: [ 0.7549 0.7773 0.7707 0.7886 ]
+ (3)...current output at MCit=6000 (8094.753 sec)(logtarget_curr = -1.39130354e+03):
+ (5) ...state 1:	(50 measurements, [ 100.00% ])
+ (5)  l12 = 4.649e+01	l13 = 7.260e+01	
+ (5)  l23 = 2.872e+01	
+ (5)  merr1 = [ 6.18e+00 7.82e+00 ]	merr2 = [ 1.09e+01 1.93e+01 ]	merr3 = [ 2.30e+01 4.41e+01 ]	
+ (5) rejection rates: [ 0.7781 0.7520 0.7605 0.7711 ]
+ (5)...current output at MCit=6000 (8103.928 sec)(logtarget_curr = -1.38042263e+03):
+ (2) ...state 1:	(50 measurements, [ 100.00% ])
+ (2)  l12 = 4.219e+01	l13 = 7.354e+01	
+ (2)  l23 = 3.777e+01	
+ (2)  merr1 = [ 1.43e+01 7.33e+00 ]	merr2 = [ 2.18e+00 1.70e+01 ]	merr3 = [ 1.97e+01 3.64e+01 ]	
+ (2) rejection rates: [ 0.7170 0.7636 0.7700 0.7240 ]
+ (2)...current output at MCit=6000 (8107.995 sec)(logtarget_curr = -1.38849908e+03):
+ (1) ...state 1:	(50 measurements, [ 100.00% ])
+ (1)  l12 = 4.767e+01	l13 = 8.354e+01	
+ (1)  l23 = 4.688e+01	
+ (1)  merr1 = [ 9.90e+00 3.18e+00 ]	merr2 = [ 7.93e-01 2.25e+01 ]	merr3 = [ 1.62e+01 3.96e+01 ]	
+ (1) rejection rates: [ 0.7914 0.7413 0.7830 0.7643 ]
+ (1)...current output at MCit=7000 (9432.865 sec)(logtarget_curr = -1.11819795e+03):
+ (4) ...state 1:	(50 measurements, [ 100.00% ])
+ (4)  l12 = 4.447e+01	l13 = 7.971e+01	
+ (4)  l23 = 4.264e+01	
+ (4)  merr1 = [ 6.95e+00 4.28e+00 ]	merr2 = [ 8.87e+00 2.18e+01 ]	merr3 = [ 1.67e+01 4.20e+01 ]	
+ (4) rejection rates: [ 0.7895 0.7496 0.7713 0.7651 ]
+ (4)...current output at MCit=7000 (9462.578 sec)(logtarget_curr = -1.36337758e+03):
+ (3) ...state 1:	(50 measurements, [ 100.00% ])
+ (3)  l12 = 4.311e+01	l13 = 7.532e+01	
+ (3)  l23 = 3.986e+01	
+ (3)  merr1 = [ 1.12e+01 9.59e+00 ]	merr2 = [ 7.31e+00 1.88e+01 ]	merr3 = [ 1.62e+01 4.13e+01 ]	
+ (3) rejection rates: [ 0.7626 0.7841 0.7681 0.7904 ]
+ (3)...current output at MCit=7000 (9477.478 sec)(logtarget_curr = -1.39589387e+03):
+ (5) ...state 1:	(50 measurements, [ 100.00% ])
+ (5)  l12 = 4.693e+01	l13 = 7.887e+01	
+ (5)  l23 = 3.651e+01	
+ (5)  merr1 = [ 7.17e+00 7.30e+00 ]	merr2 = [ 9.57e+00 2.24e+01 ]	merr3 = [ 1.67e+01 3.59e+01 ]	
+ (5) rejection rates: [ 0.7680 0.7538 0.7706 0.7702 ]
+ (5)...current output at MCit=7000 (9489.788 sec)(logtarget_curr = -1.38310518e+03):
+ (2) ...state 1:	(50 measurements, [ 100.00% ])
+ (2)  l12 = 4.694e+01	l13 = 8.166e+01	
+ (2)  l23 = 4.639e+01	
+ (2)  merr1 = [ 1.12e+01 8.33e+00 ]	merr2 = [ 4.46e+00 1.65e+01 ]	merr3 = [ 1.82e+01 4.93e+01 ]	
+ (2) rejection rates: [ 0.7204 0.7655 0.7710 0.7254 ]
+ (2)...current output at MCit=7000 (9497.713 sec)(logtarget_curr = -1.31862210e+03):
+ (1) ...state 1:	(50 measurements, [ 100.00% ])
+ (1)  l12 = 4.502e+01	l13 = 7.683e+01	
+ (1)  l23 = 4.200e+01	
+ (1)  merr1 = [ 1.02e+01 2.43e-01 ]	merr2 = [ 2.34e+00 2.02e+01 ]	merr3 = [ 1.76e+01 3.49e+01 ]	
+ (1) rejection rates: [ 0.7920 0.7481 0.7814 0.7641 ]
+ (1)...current output at MCit=8000 (10780.365 sec)(logtarget_curr = -1.32169951e+03):
+ (4) ...state 1:	(50 measurements, [ 100.00% ])
+ (4)  l12 = 4.444e+01	l13 = 7.942e+01	
+ (4)  l23 = 4.181e+01	
+ (4)  merr1 = [ 1.28e+01 4.12e+00 ]	merr2 = [ 7.57e+00 1.90e+01 ]	merr3 = [ 1.31e+01 3.85e+01 ]	
+ (4) rejection rates: [ 0.7845 0.7533 0.7727 0.7652 ]
+ (4)...current output at MCit=8000 (10813.090 sec)(logtarget_curr = -1.44638704e+03):
+ (3) ...state 1:	(50 measurements, [ 100.00% ])
+ (3)  l12 = 4.354e+01	l13 = 8.047e+01	
+ (3)  l23 = 4.509e+01	
+ (3)  merr1 = [ 1.24e+01 7.65e+00 ]	merr2 = [ 9.80e+00 1.66e+01 ]	merr3 = [ 1.01e+01 3.67e+01 ]	
+ (3) rejection rates: [ 0.7644 0.7848 0.7708 0.7915 ]
+ (3)...current output at MCit=8000 (10831.609 sec)(logtarget_curr = -1.42771837e+03):
+ (5) ...state 1:	(50 measurements, [ 100.00% ])
+ (5)  l12 = 4.217e+01	l13 = 7.539e+01	
+ (5)  l23 = 4.093e+01	
+ (5)  merr1 = [ 1.27e+01 2.93e+00 ]	merr2 = [ 7.73e+00 1.93e+01 ]	merr3 = [ 1.83e+01 3.39e+01 ]	
+ (5) rejection rates: [ 0.7680 0.7526 0.7739 0.7706 ]
+ (5)...current output at MCit=8000 (10838.658 sec)(logtarget_curr = -1.37765072e+03):
+ (2) ...state 1:	(50 measurements, [ 100.00% ])
+ (2)  l12 = 4.437e+01	l13 = 7.498e+01	
+ (2)  l23 = 3.584e+01	
+ (2)  merr1 = [ 9.93e+00 1.89e+00 ]	merr2 = [ 6.75e+00 1.89e+01 ]	merr3 = [ 1.68e+01 3.92e+01 ]	
+ (2) rejection rates: [ 0.7211 0.7689 0.7716 0.7270 ]
+ (2)...current output at MCit=8000 (10851.305 sec)(logtarget_curr = -1.16054020e+03):
+ (1) ...state 1:	(50 measurements, [ 100.00% ])
+ (1)  l12 = 4.732e+01	l13 = 7.915e+01	
+ (1)  l23 = 3.830e+01	
+ (1)  merr1 = [ 8.37e+00 1.78e+00 ]	merr2 = [ 9.63e+00 1.76e+01 ]	merr3 = [ 1.73e+01 4.55e+01 ]	
+ (1) rejection rates: [ 0.7900 0.7527 0.7817 0.7663 ]
+ (1)...current output at MCit=9000 (12138.099 sec)(logtarget_curr = -1.27219521e+03):
+ (4) ...state 1:	(50 measurements, [ 100.00% ])
+ (4)  l12 = 4.417e+01	l13 = 7.313e+01	
+ (4)  l23 = 3.215e+01	
+ (4)  merr1 = [ 1.09e+01 1.68e+01 ]	merr2 = [ 8.22e+00 1.83e+01 ]	merr3 = [ 2.24e+01 4.71e+01 ]	
+ (4) rejection rates: [ 0.7855 0.7465 0.7733 0.7607 ]
+ (4)...current output at MCit=9000 (12177.771 sec)(logtarget_curr = -1.24324061e+03):
+ (3) ...state 1:	(50 measurements, [ 100.00% ])
+ (3)  l12 = 4.517e+01	l13 = 7.720e+01	
+ (3)  l23 = 3.969e+01	
+ (3)  merr1 = [ 8.65e+00 2.13e+01 ]	merr2 = [ 7.25e+00 2.25e+01 ]	merr3 = [ 1.94e+01 3.46e+01 ]	
+ (3) rejection rates: [ 0.7607 0.7810 0.7738 0.7885 ]
+ (3)...current output at MCit=9000 (12196.548 sec)(logtarget_curr = -1.50094671e+03):
+ (5) ...state 1:	(50 measurements, [ 100.00% ])
+ (5)  l12 = 4.075e+01	l13 = 7.561e+01	
+ (5)  l23 = 4.304e+01	
+ (5)  merr1 = [ 1.37e+01 2.87e+00 ]	merr2 = [ 8.54e+00 1.80e+01 ]	merr3 = [ 1.59e+01 4.31e+01 ]	
+ (5) rejection rates: [ 0.7689 0.7499 0.7709 0.7701 ]
+ (5)...current output at MCit=9000 (12197.723 sec)(logtarget_curr = -1.25341504e+03):
+ (2) ...state 1:	(50 measurements, [ 100.00% ])
+ (2)  l12 = 4.114e+01	l13 = 6.996e+01	
+ (2)  l23 = 3.784e+01	
+ (2)  merr1 = [ 1.47e+01 8.13e+00 ]	merr2 = [ 4.63e-01 1.76e+01 ]	merr3 = [ 2.31e+01 4.27e+01 ]	
+ (2) rejection rates: [ 0.7249 0.7721 0.7734 0.7316 ]
+ (2)...current output at MCit=9000 (12218.226 sec)(logtarget_curr = -1.41118719e+03):
+ (1) ...state 1:	(50 measurements, [ 100.00% ])
+ (1)  l12 = 4.083e+01	l13 = 7.630e+01	
+ (1)  l23 = 4.200e+01	
+ (1)  merr1 = [ 1.18e+01 1.43e+01 ]	merr2 = [ 1.52e+00 2.31e+01 ]	merr3 = [ 1.79e+01 3.42e+01 ]	
+ (1) rejection rates: [ 0.7890 0.7562 0.7809 0.7693 ]
+ (1)...current output at MCit=10000 (13499.884 sec)(logtarget_curr = -1.38536083e+03):
+ (1) ...state 1:	(50 measurements, [ 100.00% ])
+ (1)  l12 = 4.120e+01	l13 = 7.597e+01	
+ (1)  l23 = 4.088e+01	
+ (1)  merr1 = [ 1.23e+01 5.96e+00 ]	merr2 = [ 9.37e+00 2.26e+01 ]	merr3 = [ 1.36e+01 3.09e+01 ]	
+ (1) rejection rates: [ 0.7933 0.7504 0.7807 0.7653 ]
+ (1) Final statistics (10000):
+ (1) stepsizes: [ +4.7748e+00 +3.2988e+00 +9.6665e+00 +6.9852e-01 ]
+ (1) rej rates: [ +7.9334e-01 +7.5041e-01 +7.8065e-01 +7.6527e-01 ]
+  Info - outputlengthstatistics (1): Some length-statistics for state 1 (after burnin of 4000):
+   l12  = 4.255e+01 +- 3.221e+00	(1)
+   l13  = 7.813e+01 +- 4.365e+00	(1)
+   l23  = 4.170e+01 +- 4.972e+00	(1)
+  Info - outputinternalanglesstatistics (1): Some internal angles-statistis for state 1 (after burnin of 4000)
+   phi213(1) = 4.260e+01 +- 1.045e+01	(1)
+   phi321(1) = 1.374e+02 +- 1.045e+01	(1)
+   phi132(1) = 2.152e+01 +- 5.423e+00	(1)
+ (1) Total time consumption of getgeometry_v2:		13501.234 sec
+ (4) ...state 1:	(50 measurements, [ 100.00% ])
+ (4)  l12 = 4.550e+01	l13 = 7.374e+01	
+ (4)  l23 = 3.534e+01	
+ (4)  merr1 = [ 1.21e+01 2.20e+00 ]	merr2 = [ 2.33e+00 2.08e+01 ]	merr3 = [ 1.89e+01 4.46e+01 ]	
+ (4) rejection rates: [ 0.7855 0.7477 0.7721 0.7625 ]
+ (4)...current output at MCit=10000 (13541.603 sec)(logtarget_curr = -1.46599129e+03):
+ (4) ...state 1:	(50 measurements, [ 100.00% ])
+ (4)  l12 = 4.136e+01	l13 = 6.801e+01	
+ (4)  l23 = 3.120e+01	
+ (4)  merr1 = [ 1.42e+01 1.92e+01 ]	merr2 = [ 8.28e+00 1.08e+01 ]	merr3 = [ 2.12e+01 4.46e+01 ]	
+ (4) rejection rates: [ 0.7861 0.7502 0.7719 0.7647 ]
+ (4) Final statistics (10000):
+ (4) stepsizes: [ +4.7445e+00 +3.2969e+00 +9.3725e+00 +7.0138e-01 ]
+ (4) rej rates: [ +7.8607e-01 +7.5021e-01 +7.7189e-01 +7.6472e-01 ]
+  Info - outputlengthstatistics (4): Some length-statistics for state 1 (after burnin of 4000):
+   l12  = 4.257e+01 +- 3.187e+00	(4)
+   l13  = 7.825e+01 +- 4.385e+00	(4)
+   l23  = 4.194e+01 +- 4.893e+00	(4)
+  Info - outputinternalanglesstatistics (4): Some internal angles-statistis for state 1 (after burnin of 4000)
+   phi213(1) = 4.298e+01 +- 1.072e+01	(4)
+   phi321(1) = 1.370e+02 +- 1.072e+01	(4)
+   phi132(1) = 2.164e+01 +- 5.523e+00	(4)
+ (4) Total time consumption of getgeometry_v2:		13542.823 sec
+ (5) ...state 1:	(50 measurements, [ 100.00% ])
+ (5)  l12 = 4.121e+01	l13 = 8.014e+01	
+ (5)  l23 = 4.381e+01	
+ (5)  merr1 = [ 1.46e+01 1.07e+01 ]	merr2 = [ 1.17e+00 2.31e+01 ]	merr3 = [ 1.70e+01 2.78e+01 ]	
+ (5) rejection rates: [ 0.7703 0.7570 0.7726 0.7762 ]
+ (5)...current output at MCit=10000 (13559.887 sec)(logtarget_curr = -1.35877030e+03):
+ (5) ...state 1:	(50 measurements, [ 100.00% ])
+ (5)  l12 = 3.872e+01	l13 = 7.649e+01	
+ (5)  l23 = 4.217e+01	
+ (5)  merr1 = [ 1.44e+01 2.89e+00 ]	merr2 = [ 7.34e+00 2.50e+01 ]	merr3 = [ 1.17e+01 3.86e+01 ]	
+ (5) rejection rates: [ 0.7678 0.7579 0.7731 0.7760 ]
+ (5) Final statistics (10000):
+ (5) stepsizes: [ +4.4177e+00 +3.4077e+00 +9.4706e+00 +7.3422e-01 ]
+ (5) rej rates: [ +7.6779e-01 +7.5786e-01 +7.7307e-01 +7.7599e-01 ]
+  Info - outputlengthstatistics (5): Some length-statistics for state 1 (after burnin of 4000):
+   l12  = 4.253e+01 +- 3.171e+00	(5)
+   l13  = 7.815e+01 +- 4.443e+00	(5)
+   l23  = 4.170e+01 +- 5.019e+00	(5)
+  Info - outputinternalanglesstatistics (5): Some internal angles-statistis for state 1 (after burnin of 4000)
+   phi213(1) = 4.218e+01 +- 1.137e+01	(5)
+   phi321(1) = 1.378e+02 +- 1.137e+01	(5)
+   phi132(1) = 2.126e+01 +- 5.780e+00	(5)
+ (5) Total time consumption of getgeometry_v2:		13561.039 sec
+ (3) ...state 1:	(50 measurements, [ 100.00% ])
+ (3)  l12 = 4.410e+01	l13 = 7.206e+01	
+ (3)  l23 = 2.846e+01	
+ (3)  merr1 = [ 1.22e+01 2.06e+01 ]	merr2 = [ 1.23e+01 1.22e+01 ]	merr3 = [ 1.98e+01 4.87e+01 ]	
+ (3) rejection rates: [ 0.7612 0.7808 0.7737 0.7876 ]
+ (3)...current output at MCit=10000 (13562.868 sec)(logtarget_curr = -1.27877901e+03):
+ (3) ...state 1:	(50 measurements, [ 100.00% ])
+ (3)  l12 = 4.458e+01	l13 = 8.122e+01	
+ (3)  l23 = 4.179e+01	
+ (3)  merr1 = [ 1.15e+01 1.06e+00 ]	merr2 = [ 7.67e+00 1.99e+01 ]	merr3 = [ 1.41e+01 3.84e+01 ]	
+ (3) rejection rates: [ 0.7629 0.7819 0.7744 0.7893 ]
+ (3) Final statistics (10000):
+ (3) stepsizes: [ +4.4933e+00 +3.6095e+00 +9.4056e+00 +7.6284e-01 ]
+ (3) rej rates: [ +7.6289e-01 +7.8194e-01 +7.7442e-01 +7.8927e-01 ]
+  Info - outputlengthstatistics (3): Some length-statistics for state 1 (after burnin of 4000):
+   l12  = 4.250e+01 +- 3.229e+00	(3)
+   l13  = 7.827e+01 +- 4.276e+00	(3)
+   l23  = 4.212e+01 +- 4.615e+00	(3)
+  Info - outputinternalanglesstatistics (3): Some internal angles-statistis for state 1 (after burnin of 4000)
+   phi213(1) = 4.318e+01 +- 1.107e+01	(3)
+   phi321(1) = 1.368e+02 +- 1.107e+01	(3)
+   phi132(1) = 2.168e+01 +- 5.688e+00	(3)
+ (3) Total time consumption of getgeometry_v2:		13563.918 sec
+ (2) ...state 1:	(50 measurements, [ 100.00% ])
+ (2)  l12 = 4.208e+01	l13 = 6.817e+01	
+ (2)  l23 = 3.035e+01	
+ (2)  merr1 = [ 9.72e+00 1.08e+01 ]	merr2 = [ 6.74e+00 1.68e+01 ]	merr3 = [ 1.96e+01 4.62e+01 ]	
+ (2) rejection rates: [ 0.7288 0.7690 0.7747 0.7299 ]
+ (2)...current output at MCit=10000 (13581.054 sec)(logtarget_curr = -1.41013579e+03):
+ (2) ...state 1:	(50 measurements, [ 100.00% ])
+ (2)  l12 = 4.484e+01	l13 = 7.780e+01	
+ (2)  l23 = 3.952e+01	
+ (2)  merr1 = [ 8.61e+00 1.12e+01 ]	merr2 = [ 7.60e+00 2.16e+01 ]	merr3 = [ 2.00e+01 3.21e+01 ]	
+ (2) rejection rates: [ 0.7287 0.7717 0.7742 0.7317 ]
+ (2) Final statistics (10000):
+ (2) stepsizes: [ +4.0159e+00 +3.5905e+00 +9.4215e+00 +6.3231e-01 ]
+ (2) rej rates: [ +7.2873e-01 +7.7166e-01 +7.7422e-01 +7.3171e-01 ]
+  Info - outputlengthstatistics (2): Some length-statistics for state 1 (after burnin of 4000):
+   l12  = 4.240e+01 +- 3.287e+00	(2)
+   l13  = 7.816e+01 +- 4.383e+00	(2)
+   l23  = 4.187e+01 +- 4.872e+00	(2)
+  Info - outputinternalanglesstatistics (2): Some internal angles-statistis for state 1 (after burnin of 4000)
+   phi213(1) = 4.244e+01 +- 1.087e+01	(2)
+   phi321(1) = 1.376e+02 +- 1.087e+01	(2)
+   phi132(1) = 2.133e+01 +- 5.549e+00	(2)
+ (2) Total time consumption of getgeometry_v2:		13581.984 sec
+ Info - rungetgeometry_v2: Final statistics (after 13601.970 sec):
+ Info - sortstatelabels: Type is circumference.
+ Info - sortstatelabels: Comparable priors for states:	[ 1 ]
+  ...state 1:
+   l12(1):			 4.25101e+01 +- 3.21938e+00	(GRR_simple = 1.00014e+00)
+   l13(1):			 7.81906e+01 +- 4.37102e+00	(GRR_simple = 1.00002e+00)
+   l23(1):			 4.18631e+01 +- 4.87850e+00	(GRR_simple = 1.00057e+00)
+   merr1_xy(1):		 1.24726e+01 +- 2.99714e+00	(GRR_simple = 1.00009e+00)
+   merr1_z (1):		 9.60176e+00 +- 6.65569e+00	(GRR_simple = 1.00054e+00)
+   merr2_xy(1):		 6.23698e+00 +- 3.36515e+00	(GRR_simple = 1.00005e+00)
+   merr2_z (1):		 2.01529e+01 +- 4.73086e+00	(GRR_simple = 1.00033e+00)
+   merr3_xy(1):		 1.68557e+01 +- 3.50668e+00	(GRR_simple = 1.00023e+00)
+   merr3_z (1):		 4.09081e+01 +- 5.96594e+00	(GRR_simple = 9.99937e-01)
+ Info - rungetgeometry_v2: Done sampling now (after 13620.347 sec).
